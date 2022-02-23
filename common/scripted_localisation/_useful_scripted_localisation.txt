@@ -363,6 +363,18 @@ defined_text = {
 		}
 		localization_key = agrarian_syndicalism_subtype
 	}
+        text = {
+		trigger = {
+			has_country_leader_ideology = de_leonism_subtype
+		}
+		localization_key = de_leonism_subtype
+	}
+        text = {
+		trigger = {
+			has_country_leader_ideology = georgism_synd_subtype
+		}
+		localization_key = georgism_synd_subtype
+	}
 
 	text = {
 		trigger = {

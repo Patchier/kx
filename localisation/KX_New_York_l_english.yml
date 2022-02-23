@@ -38,10 +38,16 @@ NYC_social_liberal_party_2:0 "RP"
 NYC_social_liberal_party_2_long:0 "Republican Party"
 
 NYC_stclaire_market_liberal_party:0 "Harlem Mobsters"
-NYC_stclaire_market_liberal_party_long:0 "the 40 Thieves"
+NYC_stclaire_market_liberal_party_long:0 "The 40 Thieves"
 
 NYC_holstein_totalist_party:0 "Harlem Mobsters"
-NYC_holstein_totalist_party_long:0 "Christiansted Mobster Association"
+NYC_holstein_totalist_party_long:0 "The Christiansted Mobster Association"
+
+NYC_crosswaith_syndicalist_party:0 "Negro Labor Committee"
+NYC_crosswaith_syndicalist_party_long:0 "The Negro Labor Committee for the Betterment of the Workers in New York"
+
+NYC_harrison_syndicalist_party:0 "New Negro Movement"
+NYC_harrison_syndicalist_party_long:0 "The New Negro Movement of Harlem"
 
 ### Leader Bios ###
 POLITICS_JOHN_STEINBECK_DESC:0 "The face of a united coalition of radicals and moderates, Mayor Steinbeck has unified a group of varied Leftists that have rallied behind his broad Socialist banner after taking a vow to pursue peaceful reformation within a democratic system as opposed to the bloody revolutionary activity consuming the former USA. Born in California in 1902, Steinbeck came under the tutelage of marine biologist and philosopher Ed Ricketts after graduating college. Together, they toured America and even Indochina to explore the plight of the common man as well as revolutionary activity. After returning to America, he traveled to NYC and began writing his breakout literary works as chaos began to consume the nation in the years leading up to the Second American Civil War during the Great Depression and later Black Monday. \n\nThough a strong politician, Steinbeck is best known for his recent literary work 'In Dubious Battle' in which he writes about a strike that was both helped and hindered by an unnamed party that has generally been interpreted to be Jack Reed and Bill Haywood's Syndicalist Party. This novel largely encapsulates Steinbeck's approach to New York City politics; despite a feeling of abandonment in the form of the Syndicalist Party's abandonment of figures like Steinbeck, he is still determined to fight for the righteous causes in the city. Steinbeck has won the position of mayor of New York fair and square, mostly off of the support of the city's leftists, but he must now carefully position his city in the national struggle. Though he has clearly distanced himself from Chicago in some regards, he would be foolish to burn all his bridges on that front, and internationally, the Internationale is more than willing to provide support. So, with his ragtag group of supporters, Steinbeck plans to do what he does best as an artist. He will stand up to the stones of condemnation and speak for those who were never given a voice in Tammany Hall or the city as a whole before."
@@ -73,6 +79,7 @@ NYC_gain_stuff_tt:0 "When the §YAngry Long Island§! Spirit is Removed, we will
 NYC_taking_decision:0 "Already Taking a Decision"
 NYC_StClaire_Victory_tt:0 "§GStephanie St. Clair has taken control of New York City§!"
 NYC_Holstein_Victory_tt:0 "§GCasper Holstein has taken control of New York City§!"
+NYC_riots_and_shit_tt:0 "§GDue to the failure of stopping the riots, New York City goes into the hands of radicals§!"
 
 NYC_USA_INTERVENTION_TT:0 "We Will intervene in the §RCivil War§! on the side of the §Y[USA.GetNameWithFlag]§!
 NYC_CSA_INTERVENTION_TT:0 "We Will intervene in the §RCivil War§! on the side of the §Y[CSA.GetNameWithFlag]§!
@@ -135,6 +142,30 @@ NYC_Garvey_Influence_desc:0 "Despite his criminal activities, Casper Holstein ha
 NYC_Gambling_New_York:0 "Gambling with the Fate of New York"
 NYC_Gambling_New_York_desc:0 "Under the control of the Harlem kingpins, New York City has been transformed into the greatest gambling haven the world has ever seen, all atop the backs of our outfits and hard work. As the dice fly and the cards fall, our profit only continues to skyrocket, and with it so too does our prosperity and the quality of life of our citizens. The City that Never Sleeps is now supercharged on a blend of crime and vice, and now we await what our bright new future has in store for us."
 
+NYC_harrison_thought_idea:0 "Harrison Thought"
+NYC_harrison_thought_idea_desc:0 ""
+
+NYC_intellectual_socialism_idea:0 "Intellectual Socialism"
+NYC_intellectual_socialism_idea_desc:0 ""
+
+NYC_father_of_harlem_radicalism_idea:0 "Father of Harlem Radicalism"
+NYC_father_of_harlem_radicalism_idea_desc:0 ""
+
+NYC_crosswaith_thought_idea:0 "Crosswaith Thought"
+NYC_crosswaith_thought_idea_desc:0 ""
+
+NYC_de_leonism_idea:0 "De Leonism"
+NYC_de_leonism_idea_desc:0 ""
+
+NYC_colorblind_proletariat_idea:0 "Colorblind Proletariat"
+NYC_colorblind_proletariat_idea_desc:0 ""
+
+NYC_philisophical_nyc_idea:0 "Philosophical New York"
+NYC_philisophical_nyc_idea_desc:0 ""
+
+NYC_new_imperialism:0 "New American Imperialism"
+NYC_new_imperialism_desc:0 "Shocking the world and even ourselves, our isolated breakaway state - once fleeing from the brother war that consumed the nation - has somehow come out on top in the Second American Civil War. Now, following the whims of an internal faction of warhawks and seeking to revitalize and reconstruct America using tried and true War Economics, have decided to revive the spirit of Manifest Destiny and American Imperialism. We shall exert our influence and our might across the lands of the old American empire and beyond, reviving aspects of the Monroe Doctrine as we seek to dominate the New World in order to rebuild our new America."
+
 ### Opinion Modifiers ###
 NYC_built_building:0 "Hosted Internationale Headquarters"
 NYC_citizen_kane:0 "Welles Stars in Citizen Kane"
@@ -154,6 +185,41 @@ NYC_foreign_policy_desc:0 "With our internal situation largely stabilized and a 
 NYC_join_ent:0 "Join the Entente"
 NYC_join_rp:0 "Join the ReichPakt"
 NYC_join_int:0 "Join the Internationale"
+
+NYC_Take_Hispanola:0 "Attack Hispaniola"
+NYC_Take_Cuba:0 "Attack Cuba"
+NYC_Attack_PRI:0 "Attack Puetro Rico"
+NYC_Attack_West_Indies:0 "Attack the West Indies"
+
+NYC_Non_Commie_Internationale_decisions:0 "The Anti-Communist Internationale"
+
+NYC_invite_to_faction_MON:0 "Invite the Mongolian Socialists"
+NYC_invite_to_faction_KVU:0 "Invite the Simba Socialists!"
+NYC_invite_to_faction_BRY:0 "Invite the Buryat-Mongol Socialists"
+NYC_invite_to_faction_KLY:0 "Invite the Kalymk Socialists"
+NYC_invite_to_faction_LBR:0 "Invite the Socialists in Liberia"
+NYC_invite_to_faction_HAW:0 "Invite the Hawaiian Socialists"
+NYC_invite_to_faction_YAK:0 "Invite the Yakut Social Democrats"
+NYC_invite_to_faction_PAR:0 "Invite the Paraguayan Socialists"
+NYC_invite_to_faction_URG:0 "Invite the Uruguayan Socialists"
+NYC_invite_to_faction_GAB:0 "Invite the Gabon Socialists"
+NYC_invite_to_faction_PRU:0 "Invite the Peruvian Socialists"
+NYC_invite_to_faction_SKM:0 "Invite the Sikkimese Socialists"
+NYC_invite_to_faction_MEX:0 "Invite the Mexican Socialists"
+NYC_invite_to_faction_PER:0 "Invite the Persian Socialists"
+NYC_invite_to_faction_KMT:0 "Invite the Left KMT Socialists"
+
+NYC_New_Negro_Internationale_decisions:0 "The New Negro Internationale"
+
+NYC_invite_to_faction_LPD:0 "Invite the Spiritualists of the Congo"
+NYC_invite_to_faction_KIK:0 "Invite the Real Mau Mau Socialists"
+NYC_invite_to_faction_KIV:0 "Invite the Legitimate Congolese Socialists"
+NYC_invite_to_faction_GHA:0 "Invite the Ghana Socialists"
+NYC_invite_to_faction_LIB:0 "Invite the Liberian Socialists"
+NYC_invite_to_faction_HAI:0 "Invite our Socialist brothers in Haiti"
+NYC_invite_to_faction_CAF:0 "Invite our brothers in the Afro-Caribbean"
+NYC_invite_to_faction_BBR:0 "Invite our true brothers Down South"
+
 
 USA_reclaim_new_york_decision:0 "Take a Bite Out of the Big Apple"
 USA_reclaim_new_york_decision_desc:0 "To the East, backed up against the Atlantic and with nowhere to go, New York City lies open and vulnerable. We should issue an ultimatum to their government, threatening war if they do not bend the knee and re-enter the Union."
@@ -184,6 +250,30 @@ NYC_tourism_desc:0 "A land of beautiful sights, endless amenities, and good ente
 NYC_UNIFIED:0 "New York"
 NYC_UNIFIED_ADJ:0 "New Yorker"
 NYC_UNIFIED_DEF:0 "New York"
+
+NYC_french:0 "Nouveau Paris"
+NYC_french_ADJ:0 "Nouveau Parisien"
+NYC_french_DEF:0 "City of Nouveau Paris"
+
+NYC_dutch:0 "Nieuw Amsterdam"
+NYC_dutch_ADJ:0 "Nieuw Amsterdammer"
+NYC_dutch_DEF:0 "City of Nieuw Amsterdam"
+
+
+NYC_NEE:0 "New England"
+NYC_NEE_ADJ:0 "New Englander"
+NYC_NEE_DEF:0 "New England"
+
+NYC_CARIBBEAN:0 "Caribbean Federation"
+NYC_CARIBBEAN_ADJ:0 "Caribbeaner"
+NYC_CARIBBEAN_DEF:0 "The Carribean Federation"
+
+NYC_UNIFIED_BBR_market_Liberal:0 "Black Belt Republic"
+NYC_UNIFIED_BBR_market_liberal_ADJ:0 "Black American"
+NYC_UNIFIED_BBR_market_liberal_DEF:0 "the Harlem Republic"
+NYC_UNIFIED_BBR_totalist:0 "Republic of New Afrika"
+NYC_UNIFIED_BBR_totalist_ADJ:0 "Black American"
+NYC_UNIFIED_BBR_totalist_DEF:0 "the Harlem Republic"
 
 NYC_USA:0 "United States of America"
 NYC_USA_ADJ:0 "American"
@@ -475,6 +565,41 @@ NYC_city_of_skyscrapers:0 "A City of Skyscrapers"
 NYC_city_of_skyscrapers_desc:0 "New York City has the most diverse skyline in the world, home to dozens of unique skyscrapers each erected in a certain style and for a certain purpose. We must continue this tradition of reaching towards the heavens by continuing to build more and more skyscrapers, each more extravagant, more unique, and taller than the last. Our shining city upon the hill shall scrape the heavens themselves as we reach towards the skies with our ingenuity and ambition, providing new office space, housing, and more along the way."
 NYC_multiculturalism:0 "A City of Metropolitan Multiculturalism"
 NYC_multiculturalism_desc:0 "Our city is a metropolitan melting pot, with Ellis Island and our war-torn borders bringing in thousands of new faces a year. This multicultural reality is impossible to ignore, and so we must embrace it for the good of the City. Each culture and group brings something valuable to the table, and as such we shall welcome each and every soul who enters our fine city so that each contributes to the whole. Together, by embracing what makes us different and what makes us the same, we shall build a better, more prosperous, and more profitable New York."
+
+NYC_riots_spiral:0 "New York in the Hands of the People"
+NYC_riots_spiral_desc:0 "Riots has gone out of hand and now crosswaith and harrison controls new york"
+NYC_crosswaith_thought:0 "Crosswaith's Theory"
+NYC_crosswaith_thought_desc:0 "We have decided to follow Crosswaith and his anti-radical ideas"
+NYC_harrison_thought:0 "Harrison Thought"
+NYC_harrison_thought_desc:0 "We have decided to follow Harrison and his Georgist thought"
+NYC_oppose_black_supremacists:0 "Oppose Black Supremacism"
+NYC_oppose_black_supremacists_desc:0 "Black Nationalism good, Black Supremacism bad"
+NYC_intellectual_socialism:0 "Intellectual Socialism"
+NYC_intellectual_socialism_desc:0 "Clearly, you're not smart enough to understand Socialism"
+NYC_father_of_harlem_radicalism:0 "Father of Harlem Radicalism"
+NYC_father_of_harlem_radicalism_desc:0 "something about the harlem rennaisance and his ideals"
+NYC_black_nationalism_without_race_supremacy:0 "Non-Discriminatory Black Nationalism"
+NYC_black_nationalism_without_race_supremacy_desc:0 "We must call for the complete eradication of Race Supremacy while promoting Black Nationalism"
+NYC_oppose_union_radicalism:0 "Oppose Trade Union Extremism"
+NYC_oppose_union_radicalism_desc:0 "something about opposing ira kemp and his unions"
+NYC_syndicalism_without_radicalism:0 "True Syndicalist Democracy"
+NYC_syndicalism_without_radicalism_desc:0 "We have to oppose Radical ideas such as Communism and Bolshevikism while promoting our version of Syndicalism"
+NYC_de_leonism:0 "De Leonist Economics"
+NYC_de_leonism_desc:0 "De Leonism good"
+NYC_colorblind_proletariat:0 "A Colorblind Proletariat"
+NYC_colorblind_proletariat_desc:0 "Our Proletariat does not discriminate, instead we promote equality and civil rights for all"
+NYC_radical_internationalism:0 "New Negro Internationalism"
+NYC_radical_internationalism_desc:0 "Radical Internationalism stuff"
+NYC_anti_communist_internationalism:0 "Anti-Communist Internationalism"
+NYC_anti_communist_internationalism_desc:0 "Ideas such as Communism plague the world, we must make alliance with Socialist nations against Communism"
+NYC_anti_racist_stuff:0 "Civil Rights for All"
+NYC_anti_racist_stuff_desc:0 "something something equality for all"
+NYC_a_black_caribbean:0 "Control the Afro-Caribbean"
+NYC_a_black_caribbean_desc:0 "the Afro-Caribbean lands in the south must come under our sphere through force"
+NYC_a_philosophical_new_york:0 "A Humanistic New York"
+NYC_a_philosophical_new_york_desc:0 "something about Philosophy coming far in New York"
+
+
 
 NYC_city_under_seige:0 "A City Under Siege"
 NYC_city_under_seige_desc:0 "Our beloved Big Apple is under siege! Though we have entered into an uneasy ceasefire, the radical forces of the Combined Syndicates and the stalwart forces of the Federalists both eye up our metropolis with hungry eyes. Meanwhile, the Candadians and New Englanders look to us with deep intent while foreign forces already vye for our subservience. This cannot be allowed to stand! We must rally the meager military forces under our command in order to formalize a new army to defend our proud New York."
@@ -1136,6 +1261,39 @@ NYC_flavor.2237.a:0 "None need to know what happens behind our closed doors."
 NYC_flavor.2238.t:0 "Revenge and Retaliation"
 NYC_flavor.2238.d:0 "Seeking to wipe NYC of all criminal competition while also sticking it to the men who interfered with her business in the past, Queenie St. Clair has ordered for certain key figures within the Five Families to be assassinated simultaneously across the City while St. Clair herself is off at a family baptism, providing her the perfect cover as her men commit murders across the Five Boroughs in her name without linking back to her. Furthermore, she has ordered the release of private documents that will further implicate numerous other major members within the Commission as well as many of their lesser associates, ensuring that our puppeted lackeys in the NYPD will make short work of them in the shackled judicial system we now control. Finally, Madame St. Clair has personally asked her right-hand man, rumored secret lover, and head enforcer Bumpy Johnson to violently and painfully murder Dutch Schultz - an old rival of St. Clair’s that once sold her out to the police, nearly resulting in her arrest years ago. Schultz is to be pubically displayed in a gruesome fashion after he is dealt with to serve as a message to all in the City that St. Clair is the final word in all things within the Big Apple."
 NYC_flavor.2238.a:0 "It’s all just good business."
+
+NYC_flavor.2239.t:0 "An Unthinkable Victory for the Harlem Mobsters"
+NYC_flavor.2239.d:0 "Defying all odds, our intrepid band of brothers has lived the ultimate rags to riches story. From humble beginnings abroad in the West Indies and from within the poorest blocks in Harlem to now controlling the United States, [root.getleader] has done the impossible and then some, finally ending the Second American Civil War. With our kingpin being inaugurated as the new President in a sham ceremony mocked by many due to our criminal nature, we have ignored these detractors as we seek to rebuild America and apply our own specific vision to this vast land. \n\nHowever, we must first decide on what to do with this vast swathe of space. Before us lies two options: we can either fully annex and integrate the lands of the old Union and try to make a new America modeled on our new principles, or we can split off our own independent Negro republic that extends from the Big Apple down to the Black Belt, leaving the rest of the nation to their wretched lives and deserved fates. What shall be the fate of this new America?"
+NYC_flavor.2239.a:0 "We shall make a new America that is friendly to our interests and people."
+NYC_flavor.2239.b:0 "Divide ourselves from the failed Union, let them figure out their own issues."
+
+NYC_flavor.3333.t:0 "Riots Spiral Out of Control!"
+NYC_flavor.3333.d:0 "riots continue because we didn't do jack shit about it"
+NYC_flavor.3333.a:0 "We don't negotiate with rioters"
+NYC_flavor.3333.b:0 "Appease them so they don't get worse"
+
+NYC_flavor.3334.t:0 "Riots Gets Even Worse!"
+NYC_flavor.3334.d:0 "shoulda done something about it"
+NYC_flavor.3334.a:0 "well shit"
+
+NYC_flavor.3335.t:0 "A New York for the People"
+NYC_flavor.3335.d:0 "crosswaith/harrison takes power somehow idk (log will flesh it out)"
+NYC_flavor.3335.a:0 "less gooo"
+
+NYC_flavor.3336.t:0 "Question of ideology"
+NYC_flavor.3336.d:0 "harrison or crosswaith???"
+NYC_flavor.3336.a:0 "harrison"
+NYC_flavor.3336.b:0 "crosswaith"
+
+NYC_flavor.3337.t:0 "Formation of the New Carribbean Republic"
+NYC_flavor.3337.d:0 ""
+NYC_flavor.3337.a:0 "form it"
+NYC_flavor.3337.b:0 "don't you dare"
+
+NYC_flavor.3338.t:0 "New York wants us to join their shitty faction"
+NYC_flavor.3338.d:0 ""
+NYC_flavor.3338.a:0 "yessir"
+NYC_flavor.3338.b:0 "fuck yeah"
 
 NYC_flavor.20.t:0 "On the Status of Independent Sports Leagues"
 NYC_flavor.20.d:0 "With our decision to remain separate from the new America, the question about what to do with our sports leagues has now arisen. Before the Collapse, teams from across America competed against each other after being divided into regional conferences, but the Second American Civil War brought that all to an end. However, with the return of normalcy and peace, perhaps now it is time to reunify the leagues. Though our borders and nations would of course stay separate, we could allow our teams to compete against the teams of the new America like they once did so frequently, bringing joy to all Americans regardless of borders. However, diehard New York patriots oppose this idea, feeling that it would cheapen our newly cemented identity as an independent state. What should we decide?"

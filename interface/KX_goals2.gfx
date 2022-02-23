@@ -1965,8 +1965,68 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/NYC_Tammany_Chains.png"
 	}
 	spriteType = {
-		name = "GFX_goal_NYC_nypd_usa_1"
-		texturefile = "gfx/interface/goals/NYC_nypd_usa_1.png"
+		name = "GFX_goal_NYC_Intellectual_Socialism"
+		texturefile = "gfx/interface/goals/NYC_Intellectual_Socialism.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Syndicalism_Without_Radicalism"
+		texturefile = "gfx/interface/goals/NYC_Syndicalism_Without_Radicalism.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Radical_Internationalism"
+		texturefile = "gfx/interface/goals/NYC_Radical_Internationalism.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Philosophical_New_York"
+		texturefile = "gfx/interface/goals/NYC_Philosophical_New_York.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Oppose_Radical_Unions"
+		texturefile = "gfx/interface/goals/NYC_Oppose_Radical_Unions.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Oppose_Black_Supremacism"
+		texturefile = "gfx/interface/goals/NYC_Oppose_Black_Supremacism.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Harrison"
+		texturefile = "gfx/interface/goals/NYC_Harrison.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Father_Harlem_Radicalism"
+		texturefile = "gfx/interface/goals/NYC_Father_Harlem_Radicalism.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_De_Leonism"
+		texturefile = "gfx/interface/goals/NYC_De_Leonism.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Crosswaith"
+		texturefile = "gfx/interface/goals/NYC_Crosswaith.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Colorblind_Proletariat"
+		texturefile = "gfx/interface/goals/NYC_Colorblind_Proletariat.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Civil_Rights_All"
+		texturefile = "gfx/interface/goals/NYC_Civil_Rights_All.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Black_Nationalism_Without_Supremacy"
+		texturefile = "gfx/interface/goals/NYC_Black_Nationalism_Without_Supremacy.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Black_Caribbean"
+		texturefile = "gfx/interface/goals/NYC_Black_Caribbean.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_Anti_Communist_Internationalism"
+		texturefile = "gfx/interface/goals/NYC_Anti_Communist_Internationalism.png"
+	}
+        spriteType = {
+		name = "GFX_goal_NYC_In_Peoples_Hands"
+		texturefile = "gfx/interface/goals/NYC_In_Peoples_Hands.png"
 	}
 	spriteType = {
 		name = "GFX_goal_NYC_city_of_skyscrapers"
@@ -2507,6 +2567,10 @@ SpriteTypes = {
 	SpriteType = {
         name = "GFX_goal_nypd"
         texturefile = "gfx/interface/goals/goal_nypd.png"
+    }
+	SpriteType = {
+        name = "GFX_goal_NYC_nypd_usa_1"
+        texturefile = "gfx/interface/goals/NYC_nypd_usa_1.png"
     }
 	spriteType = {
 		name = "GFX_goal_NYC_emergency_fortifications"
