@@ -1313,9 +1313,9 @@ ideas = {
 			}
 		}
 		
-                ### Harrison/Crosswaith Ideas ###
+		### Harrison/Crosswaith Ideas ###
 
-                NYC_harrison_thought_idea = {#
+		NYC_harrison_thought_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_harrison_thought"}
 			allowed = { always = no }
 			removal_cost = -1
@@ -1326,7 +1326,7 @@ ideas = {
 				drift_defence_factor = 0.04
 			}
 		}
-                NYC_intellectual_socialism_idea = {#
+		NYC_intellectual_socialism_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_harrison_thought"}
 			allowed = { always = no }
 			removal_cost = -1
@@ -1334,10 +1334,10 @@ ideas = {
 			modifier = {
 				stability_factor = 0.03
 				political_power_gain = 0.02
-                                consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.02
 			}
 		}
-                NYC_father_of_harlem_radicalism_idea = {#
+		NYC_father_of_harlem_radicalism_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_harrison_thought"}
 			allowed = { always = no }
 			removal_cost = -1
@@ -1347,9 +1347,9 @@ ideas = {
 				political_power_gain = 0.02
 			}
 		}
-                NYC_crosswaith_thought_idea = {#
+		NYC_crosswaith_thought_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_back_to_the_people"}
-                        allowed = { always = no }
+			allowed = { always = no }
 			picture = american_guildism
 			modifier = {
 				political_power_gain = 0.02
@@ -1357,38 +1357,38 @@ ideas = {
 				local_manpower = 0.03
 			}
 		}
-                NYC_de_leonism_idea = {#
+		NYC_de_leonism_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_back_to_the_people"}
-                        allowed = { always = no }
+			allowed = { always = no }
 			picture = de_leonist_economy
 			modifier = {
 				political_power_gain = 0.04
 				local_resources_factor = 0.03
-                                production_speed_industrial_complex_factor = 0.02
+				production_speed_industrial_complex_factor = 0.02
 				production_speed_infrastructure_factor = 0.01
 			}
 		}
-                NYC_colorblind_proletariat_idea = {#
+		NYC_colorblind_proletariat_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_back_to_the_people"}
-                        allowed = { always = no }
+			allowed = { always = no }
 			picture = solidarism_3
 			modifier = {
 				political_power_gain = 0.04
 				stability_factor = 0.02
-                                stability_weekly_factor = 0.03
+				stability_weekly_factor = 0.03
 			}
 		}
-                NYC_philisophical_nyc_idea = {#
+		NYC_philisophical_nyc_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_back_to_the_people"}
-                        allowed = { always = no }
+			allowed = { always = no }
 			picture = egalitarian_manifesto
 			modifier = {
 				political_power_gain = 0.04
 				stability_factor = 0.02
-                                stability_weekly_factor = 0.03
+				stability_weekly_factor = 0.03
 				production_speed_industrial_complex_factor = 0.02
 				production_speed_infrastructure_factor = 0.01
-                                consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.03
 				recruitable_population_factor = 0.02
 			}
 		}
