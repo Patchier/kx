@@ -1,4 +1,45 @@
 spriteTypes = {
+	### BRG ###
+	spriteType = {
+		name = "GFX_idea_BRG_Tradional_Goverance"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Tradional_Goverance.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Distributist_Economy"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Distributist_Economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Christian_Unity"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Christian_Unity.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Legionary_Economy"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Legionary_Economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Norman_Nationalism"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Norman_Nationalism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Legionary_Struggle"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Legionary_Struggle.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Republican_Spirit"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Republican_Spirit.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Miltary_Dominance"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Miltary_Dominance.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Democracy_Under_Miltary"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Democracy_Under_Miltary.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Clemonomics"
+		texturefile = "gfx/interface/ideas/ideas/BRG_Clemonomics.png"
+	}
 	### PAN ###
 	spriteType = {
 		name = "GFX_idea_PAN_gunpic"
@@ -508,6 +549,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_generic_gas_idea"
 		texturefile = "gfx/interface/ideas/ideas/generic_gas_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_purge_idea"
+		texturefile = "gfx/interface/ideas/ideas/generic_purge_idea.png"
 	}
 	
 	### Generic Army Stuff ###
@@ -2060,6 +2105,11 @@ spriteTypes = {
 		name = "GFX_idea_SKM_ethnic_tensions_and_whatnot"
 		texturefile = "gfx/interface/ideas/SKM/SKM_ethnic_tensions_and_whatnot.png"
 	}
+	### Tibet ###
+	spriteType = {
+		name = "GFX_idea_TIB_struggle_tibet"
+		texturefile = "gfx/interface/ideas/TIB/TIB_struggle_tibet.png"
+	}
 	### VNC ###
 	spriteType = {
 		name = "GFX_idea_VNC_fanti_da_mar_idea"
@@ -2182,6 +2232,10 @@ spriteTypes = {
 
 	### New York City ###
 	spriteType = {
+		name = "GFX_idea_nyc_imperialism"
+		texturefile = "gfx/interface/ideas/NYC/NYC_new_american_imperialism.png"
+	}
+	spriteType = {
 		name = "GFX_idea_NYC_tammany_hall"
 		texturefile = "gfx/interface/ideas/NYC/idea_NYC_tammany_hall.png"
 	}
@@ -2228,5 +2282,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_NYC_economic_devastation"
 		texturefile = "gfx/interface/ideas/NYC/NYC_economic_devastation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NYC_Gambling_New_York"
+		texturefile = "gfx/interface/ideas/NYC/NYC_Gambling_New_York.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NYC_garvey_influence"
+		texturefile = "gfx/interface/ideas/NYC/NYC_garvey_influence.png"
 	}
 }

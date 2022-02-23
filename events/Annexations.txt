@@ -6649,6 +6649,24 @@ country_event = { #Fate of America
 
 		set_temp_variable = { tag_to_release = BBR }
 		puppet_released_tag = yes
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = NFA
+				}
+				NYC = {
+					country_event = NYC_flavor.8699
+				}
+			}
+			if = {
+				limit = {
+					tag = HOL
+				}
+				NYC = {
+					country_event = NYC_flavor.6969
+				}
+			}
+		}
 
 	}
 	
@@ -6717,6 +6735,26 @@ country_event = { #Fate of America
 		
 		set_temp_variable = { tag_to_release = ALA }
 		puppet_released_tag = yes
+
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = NFA
+				}
+				NYC = {
+					country_event = NYC_flavor.8699
+				}
+			}
+
+			if = {
+				limit = {
+					tag = HOL
+				}
+				NYC = {
+					country_event = NYC_flavor.6969
+				}
+			}
+		}
 
 	}
 
@@ -12068,6 +12106,7 @@ country_event = { #Fate of Anatolia
 						state = 1000 #Kars-Igdir
 						state = 1001 #Lazistan
 						state = 341 #Adrianople
+						state = 1225 #Halipoli
 						state = 773 #Constantinople
 						state = 339 #Smyrna
 						state = 340 #Bursa

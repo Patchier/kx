@@ -2332,7 +2332,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_shoot_looters"
-			add_stability_power = 0.15
+			add_stability = 0.15
 			add_manpower = -500
 			swap_ideas = {
 				remove_idea = NYC_the_mafia3
@@ -2761,6 +2761,15 @@ focus_tree = {
 				ideology = social_conservative
 				popularity = 0.05
 			}
+			if = {
+			limit = {
+				has_idea = NYC_the_mafia
+			}
+			swap_ideas = {
+				remove_idea = NYC_the_mafia
+				add_idea = NYC_the_mafia3
+				}
+			}
 		}
 	}
 	
@@ -2787,6 +2796,15 @@ focus_tree = {
 				add_idea = NYC_nypd_3
 			}
 			add_political_power = 50
+			if = {
+			limit = {
+				has_idea = NYC_the_mafia3
+			}
+			swap_ideas = {
+				remove_idea = NYC_the_mafia3
+				add_idea = NYC_the_mafia4
+				}
+			}
 		}
 	}
 	
@@ -2924,6 +2942,10 @@ focus_tree = {
 				country_event = {
 					id = NYC.48
 					days = 200
+				}
+				country_event = {
+					id = NYC_flavor.56
+					days = 150
 				}
 			}
 		}
@@ -3073,7 +3095,7 @@ focus_tree = {
 				}
 				country_event = {
 					id = NYC_flavor.19
-					days = 200
+					days = 40
 				}
 			}
 		}
@@ -3640,7 +3662,7 @@ focus_tree = {
 			}
 		}
 		x = 0
-		y = 16
+		y = 17
 		cost = 5
 
 		ai_will_do = {
@@ -3934,7 +3956,7 @@ focus_tree = {
 					days = 45
 				}
             }
-	     }
+	    }
 	}
     focus = {
 		id = NYC_Give_Back_To_The_People
@@ -3993,7 +4015,7 @@ focus_tree = {
 					days = 10
 				}
 			}
-	     }
+	    }
 	}
     focus = {
 		id = NYC_A_Gambling_New_York
@@ -4568,7 +4590,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4598,7 +4620,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4625,7 +4647,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4652,7 +4674,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4679,7 +4701,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4701,7 +4723,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4726,7 +4748,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4758,7 +4780,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4794,7 +4816,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4823,7 +4845,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4856,13 +4878,14 @@ focus_tree = {
 				has_government = social_liberal
 				has_government = social_democrat
 				has_government = paternal_autocrat
+				has_government = totalist
 			}
 		}
 				
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4894,7 +4917,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4905,7 +4928,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_self_sufficent_NYC
-		icon = GFX_goal_generic_isolation
+		icon = GFX_goal_NYC_Self_Sufficent
 		x = -2
 		y = 4
 		relative_position_id = NYC_city_that_never_sleeps
@@ -4920,7 +4943,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4956,7 +4979,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -4993,7 +5016,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5019,7 +5042,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5045,7 +5068,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5076,7 +5099,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5095,7 +5118,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5117,7 +5140,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5139,7 +5162,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5161,12 +5184,12 @@ focus_tree = {
 		y = 3
 		relative_position_id = NYC_city_under_seige
 		prerequisite = {
-			focus = NYC_emergency_draft
+			focus = NYC_emergency_fortifications
 		}
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5194,7 +5217,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5225,7 +5248,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5262,7 +5285,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5289,7 +5312,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5311,7 +5334,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5342,7 +5365,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5361,9 +5384,8 @@ focus_tree = {
 					militia = { x = 2 y = 1 }
 					militia = { x = 2 y = 2 }
 				}
-				priority = 0
 			}
-			796 = {
+			random_owned_state = {
 				create_unit = {
 					division = "name = \"New York National Guard Division\" division_template = \"National Guard Division\" start_experience_factor = 0.7" 
 					owner = ROOT
@@ -5387,7 +5409,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5411,7 +5433,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5425,9 +5447,9 @@ focus_tree = {
 				category = infantry_weapons
 				category = artillery
 			}
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = NYC_pull_exiles
-				bonus = 1
+				cost_reduction = 0.5
 				uses = 1
 				category = land_doctrine
 			}
@@ -5455,7 +5477,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5500,7 +5522,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5529,7 +5551,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5556,7 +5578,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5582,14 +5604,14 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_central_park_aerodrome"
 			air_experience = 20
-			add_tech_bonus = {
-				bonus = 1
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
 				uses = 2
 				category = air_doctrine
 			}
@@ -5621,12 +5643,12 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_expand_brooklyn_naval_yard"
-			random_owned_state = {
+			358 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -5636,7 +5658,6 @@ focus_tree = {
 				add_building_construction = {
 					type = naval_base
 					level = 2
-					province = 8085
 					instant_build = yes
 				}
 			}
@@ -5661,14 +5682,14 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_pride_of_fleet_week"
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = NYC_pride_of_fleet_week
-				bonus = 1
+				cost_reduction = 0.5
 				uses = 1
 				category = naval_doctrine
 			}
@@ -5700,7 +5721,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5721,6 +5742,12 @@ focus_tree = {
 				}
 			}
 			navy_experience = 100
+                        hidden_effect = {
+				country_event = {
+					id = NYC_flavor.59
+					days = 8
+				}
+			}
 		}
 	}
 	
@@ -5736,7 +5763,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5760,7 +5787,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5785,7 +5812,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5821,7 +5848,7 @@ focus_tree = {
 		y = 2
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5848,7 +5875,7 @@ focus_tree = {
 		y = 4
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5885,7 +5912,7 @@ focus_tree = {
 		y = 2
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5927,7 +5954,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -5988,7 +6015,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -6039,7 +6066,7 @@ focus_tree = {
 		y = 2
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -6081,7 +6108,7 @@ focus_tree = {
 		y = 2
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -6122,7 +6149,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -6139,18 +6166,9 @@ focus_tree = {
 					}
 				}
 			}
-			else = {
-				every_country = {
-					limit = {
-						owns_state = 796
-					}
-				}
-				NYC = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-					}
-				}
+			create_wargoal = {
+				type = annex_everything
+				target = 796.owner
 			}
 		}
 	}
@@ -6164,7 +6182,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
@@ -6202,11 +6220,26 @@ focus_tree = {
 		y = 2
 		cost = 5
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_march_to_reunify_america"
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = USA
+						is_core_of = CSA
+						is_core_of = COR
+						is_core_of = TEX
+						is_core_of = WCC
+						is_core_of = CAL
+					}
+				}
+				NYC = {
+					add_state_claim = PREV
+				}
+			}
 			create_wargoal = {
 				type = annex_everything
 				target = USA
@@ -6234,6 +6267,4 @@ focus_tree = {
 		}
 	}
   }
-
-
 
