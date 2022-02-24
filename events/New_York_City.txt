@@ -4547,7 +4547,7 @@ country_event = { #Hubert Harrison(For Hubert/Crosswaith)
 			desc = ""
 			picture = "gfx/leaders/NYC/Portrait_NYC_Hubert_Harrison.png"
 			expire = "1965.1.1"
-			ideology = georgism_synd_subtype
+			ideology = syn_georgism_subtype
 			traits = { }
 		}
 	}
