@@ -11,6 +11,8 @@ focus_tree = {
 
 	default = no
 	
+	continuous_focus_position = { x = 2500 y = 3250 }
+	
 	### Starting Tree ###
 	focus = {
 		id = NYC_big_apple
@@ -3661,13 +3663,20 @@ focus_tree = {
 		icon = GFX_goal_NYC_Red_Roosevelt
 		available = {
 			has_government = totalist
+			has_country_leader = {
+				name = "Franklin D. Roosevelt Jr."
+				ruling_only = yes
+			}
 		}
 		bypass = {
 			has_government = totalist
+			has_country_leader = {
+				name = "Franklin D. Roosevelt Jr."
+				ruling_only = yes
+			}
 		}
 		x = -12
-		y = 18
-		relative_position_id = NYC_election
+		y = 16
 		cost = 5
 
 		ai_will_do = {
@@ -3676,7 +3685,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_red_roosevelt"
-
+			custom_effect_tooltip = NYC_fdr_jr_tt
 		}
 	}
 	
@@ -3704,6 +3713,7 @@ focus_tree = {
 				remove_idea = NYC_the_mafia
 				add_idea = NYC_the_mafia2
 			}
+			add_ideas = NYC_clean_up_city_never_sleeps
 		}
 	}
 	
@@ -3797,6 +3807,14 @@ focus_tree = {
 				remove_idea = NYC_the_mafia3
 				add_idea = NYC_the_mafia4
 			}
+			add_popularity = {
+				ideology = paternal_autocrat
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = totalist
+				popularity = 0.2
+			}
 		}
 	}
 	
@@ -3820,7 +3838,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_red_deal"
-			
+			add_ideas = NYC_red_deal
 		}
 	}
 	
@@ -3844,7 +3862,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_one_union"
-			
+			add_ideas = NYC_one_union
 		}
 	}
 	
@@ -3868,7 +3886,15 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_empower_mayor"
-			
+			swap_ideas = {
+				remove_idea = NYC_red_deal
+				add_idea = NYC_red_deal2
+			}
+			add_popularity = {
+				ideology = totalist
+				popularity = 0.2
+			}
+			add_country_leader_trait = dictator
 		}
 	}
 	
@@ -3895,7 +3921,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_supreme_city_council"
-			
+			swap_ideas = {
+				remove_idea = NYC_one_union
+				add_idea = NYC_supreme_city_council
+			}
 		}
 	}
 	
@@ -3920,7 +3949,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_overture_to_london"
-			
+			unlock_decision_tooltip = NYC_join_int
+			add_ideas = NYC_overture_to_london
 		}
 	}
 	
@@ -3929,6 +3959,7 @@ focus_tree = {
 		icon = GFX_goal_NYC_International_Benefactors
 		available = {
 			has_government = totalist
+			is_in_faction_with = INT
 		}
 		prerequisite = { 
 			focus = NYC_overture_to_london
@@ -3944,7 +3975,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_internationale_benefactors"
-			
+			swap_ideas = {
+				remove_idea = NYC_overture_to_london
+				add_idea = NYC_internationale_benefactors
+			}
 		}
 	}
 		
@@ -3974,7 +4008,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_maximist_miracle"
-			
+			swap_ideas = {
+				remove_idea = NYC_supreme_city_council
+				add_idea = NYC_maximist_miracle
+			}
 		}
 	}
 	
@@ -3998,7 +4035,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_new_man_new_york"
-			
+			add_ideas = NYC_new_man_new_york
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = totalist
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -4022,7 +4065,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_enforce_civil_rights"
-			
+			add_ideas = NYC_enforce_civil_rights
 		}
 	}
 	
@@ -4059,6 +4102,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Holstein_Victory
 		available = {
 			has_government = totalist
+			has_country_leader = {
+				name = "Casper Holstein"
+				ruling_only = yes
+			}
 		}
 		x = -1
 		y = 1
@@ -4086,6 +4133,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_StClaire_Victory
 		available = {
 			has_government = market_liberal
+			has_country_leader = {
+				name = "Stephanie St. Clair"
+				ruling_only = yes
+			}
 		}
 		x = 1
 		y = 1
@@ -4113,6 +4164,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Crush_Lesser_Gangs
 		available = {
 			has_government = market_liberal
+			has_country_leader = {
+				name = "Stephanie St. Clair"
+				ruling_only = yes
+			}
 		}
 		x = 1
 		y = 2
@@ -4143,6 +4198,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Reconcile_Five_Families
 		available = {
 			has_government = totalist
+			has_country_leader = {
+				name = "Casper Holstein"
+				ruling_only = yes
+			}
 		}
 		x = -1
 		y = 2
@@ -4172,8 +4231,14 @@ focus_tree = {
 		icon = GFX_goal_NYC_Our_New_York
 		available = {
             OR = {
-				has_government = totalist
-				has_government = market_liberal
+				has_country_leader = {
+					name = "Casper Holstein"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Stephanie St. Clair"
+					ruling_only = yes
+				}
 			}
 	    } 
 		x = 0
@@ -4207,6 +4272,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Oppose_Holstein_Nationalism
 		available = {
 			has_government = market_liberal
+			has_country_leader = {
+				name = "Stephanie St. Clair"
+				ruling_only = yes
+			}
 		}
 		x = 3
 		y = 2
@@ -4238,6 +4307,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Combat_Police_Corruption
 		available = {
 			has_government = market_liberal
+			has_country_leader = {
+				name = "Stephanie St. Clair"
+				ruling_only = yes
+			}
 		}
 		x = 2
 		y = 3
@@ -4273,6 +4346,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Queen_Policy_Rackets
 		available = {
 			has_government = market_liberal
+			has_country_leader = {
+				name = "Stephanie St. Clair"
+				ruling_only = yes
+			}
             has_completed_focus = NYC_Fight_Police_Corruption
 		}
 		x = 4
@@ -4306,6 +4383,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Garvey_Gangster
 		available = {
 			has_government = totalist
+			has_country_leader = {
+				name = "Casper Holstein"
+				ruling_only = yes
+			}
 		}
 		x = -3
 		y = 2
@@ -4339,6 +4420,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Give_Back_To_People
 		available = {
 			has_government = totalist
+			has_country_leader = {
+				name = "Casper Holstein"
+				ruling_only = yes
+			}
 		}
 		x = -2
 		y = 3
@@ -4367,6 +4452,10 @@ focus_tree = {
 		icon = GFX_goal_NYC_Harlems_Favorite_Hero
 		available = {
 			has_government = totalist
+			has_country_leader = {
+				name = "Casper Holstein"
+				ruling_only = yes
+			}
             has_completed_focus = NYC_Give_Back_To_The_People
 		}
 		x = -4
@@ -4439,7 +4528,7 @@ focus_tree = {
 		}
 	}
 
-        ### Crosswaith/Hubert Tree ###
+    ### Crosswaith/Hubert Tree ###
 
     focus = {
 		id = NYC_riots_spiral
@@ -4448,7 +4537,7 @@ focus_tree = {
 			has_government = syndicalist
 		}
 		x = 12
-		y = 17
+		y = 16
 		cost = 0
 
 		ai_will_do = {

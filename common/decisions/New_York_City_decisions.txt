@@ -149,7 +149,10 @@ NYC_foreign_policy = {
 				exists = yes
 			}
 			is_in_faction = no
-			has_completed_focus = NYC_internationale_protection
+			OR = {
+				has_completed_focus = NYC_internationale_protection
+				has_completed_focus = NYC_overture_to_london
+			}
 			NOT = {
 				has_completed_focus = NYC_neutral_city
 			}
@@ -176,10 +179,10 @@ NYC_foreign_policy = {
 		}
         available = {
            OR = {
-		has_completed_focus = NYC_radical_internationalism
-                has_completed_focus = NYC_anti_communist_internationalism
-                                                                        }
-	         }
+				has_completed_focus = NYC_radical_internationalism
+				has_completed_focus = NYC_anti_communist_internationalism
+				}
+		}
 		
 		cost = 0
 		
@@ -188,7 +191,7 @@ NYC_foreign_policy = {
 				target = HAI
 				type = annex_everything
 			}
-                        declare_war_on = {
+			declare_war_on = {
 				target = DOM
 				type = annex_everything
 			}
@@ -201,7 +204,7 @@ NYC_foreign_policy = {
 		ai_will_do = {
 		    factor = 60
 		}
-      } 
+	} 
     NYC_Take_Cuba = {
         icon = generic_prepare_civil_war
 		allowed = {
@@ -209,10 +212,10 @@ NYC_foreign_policy = {
 		}
         available = {
            OR = {
-		has_completed_focus = NYC_radical_internationalism
-                has_completed_focus = NYC_anti_communist_internationalism
-                                                                        }
-	        }
+				has_completed_focus = NYC_radical_internationalism
+				has_completed_focus = NYC_anti_communist_internationalism
+			}
+		}
 		
 		cost = 0
 		
@@ -231,18 +234,18 @@ NYC_foreign_policy = {
 		ai_will_do = {
 		    factor = 60
 		}
-      } 
-      NYC_Attack_PRI = {
+	} 
+	NYC_Attack_PRI = {
         icon = generic_prepare_civil_war
 		allowed = {
 			tag = NYC
 		}
         available = {
            OR = {
-		has_completed_focus = NYC_radical_internationalism
-                has_completed_focus = NYC_anti_communist_internationalism
-                                                                        }
-	         }
+				has_completed_focus = NYC_radical_internationalism
+				has_completed_focus = NYC_anti_communist_internationalism
+			}
+		}
 		
 		cost = 0
 		
@@ -259,18 +262,18 @@ NYC_foreign_policy = {
 		ai_will_do = {
 		    factor = 60
 		}
-      }
-      NYC_Attack_West_Indies = {
+	}
+	NYC_Attack_West_Indies = {
         icon = generic_prepare_civil_war
 		allowed = {
 			tag = NYC
 		}
         available = {
            OR = {
-		has_completed_focus = NYC_radical_internationalism
-                has_completed_focus = NYC_anti_communist_internationalism
-                                                                        }
-	         }
+				has_completed_focus = NYC_radical_internationalism
+				has_completed_focus = NYC_anti_communist_internationalism
+				}
+		}
 		
 		cost = 0
 		
@@ -294,7 +297,7 @@ NYC_foreign_policy = {
 		ai_will_do = {
 		    factor = 60
 		}
-      }
+	}
 }
 NYC_Non_Commie_Internationale_decisions = {
        	NYC_invite_to_faction_CHI = {
@@ -308,11 +311,11 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        CHI = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-                               has_government = social_democrat
-		                                                }
+			CHI = {
+				has_government = radical_socialist
+				has_government = syndicalist
+				has_government = social_democrat
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0

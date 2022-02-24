@@ -80,6 +80,7 @@ NYC_taking_decision:0 "Already Taking a Decision"
 NYC_StClaire_Victory_tt:0 "§GStephanie St. Clair has taken control of New York City§!"
 NYC_Holstein_Victory_tt:0 "§GCasper Holstein has taken control of New York City§!"
 NYC_riots_and_shit_tt:0 "§GDue to the failure of stopping the riots, New York City goes into the hands of radicals§!"
+NYC_fdr_jr_tt:0 "§VFranklin D. Roosevelt Jr.§! has seized the position of Mayor"
 
 NYC_USA_INTERVENTION_TT:0 "We Will intervene in the §RCivil War§! on the side of the §Y[USA.GetNameWithFlag]§!
 NYC_CSA_INTERVENTION_TT:0 "We Will intervene in the §RCivil War§! on the side of the §Y[CSA.GetNameWithFlag]§!
