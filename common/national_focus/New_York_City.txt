@@ -3933,7 +3933,7 @@ focus_tree = {
 		icon = GFX_goal_NYC_London_Overture
 		available = {
 			has_government = totalist
-			has_completed_focus = NYC_one_union
+			has_completed_focus = NYC_empower_mayor
 		}
 		prerequisite = { 
 			focus = NYC_red_roosevelt
