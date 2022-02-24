@@ -4025,6 +4025,532 @@ focus_tree = {
 			
 		}
 	}
+
+        ### Christian Front ###
+	focus = {
+		id = NYC_christian_front_takes_command
+		icon = GFX_goal_NYC_Christian_Front
+		available = {
+			has_government = national_populist
+		}
+		x = 24
+		y = 17
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_christian_front_takes_command"
+		}
+	}
+	
+	focus = {
+		id = NYC_on_matter_tammany_catholics
+		icon = GFX_goal_NYC_Tammany_Catholics
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_christian_front_takes_command
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = -4
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_on_matter_tammany_catholics"
+		}
+	}
+	
+	focus = {
+		id = NYC_pious_allseeing_nypd
+		icon = GFX_goal_NYC_Pious_NYPD
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_on_matter_tammany_catholics
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = -4
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_pious_allseeing_nypd"
+		}
+	}
+	
+	focus = {
+		id = NYC_salt_light
+		icon = GFX_goal_NYC_Salt_Light
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_christian_front_takes_command
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 4
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_salt_light"
+		}
+	}
+	
+	focus = {
+		id = NYC_question_civil_rights
+		icon = GFX_goal_NYC_Holy_Civil_Rights
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_salt_light
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 4
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_question_civil_rights"
+		}
+	}
+	
+	focus = {
+		id = NYC_city_that_never_sins
+		icon = GFX_goal_NYC_Sinless_New_York
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_pious_allseeing_nypd
+		}
+		prerequisite = {
+			focus = NYC_question_civil_rights
+		}
+		prerequisite = {
+			focus = NYC_protestant_big_apple
+			focus = NYC_one_city_under_one_god
+			focus = NYC_catholic_new_york
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 0
+		y = 4
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_city_that_never_sins"
+		}
+	}
+	
+	focus = {
+		id = NYC_give_us_your_poor
+		icon = GFX_goal_NYC_Give_Poor
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_city_that_never_sins
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = -1
+		y = 5
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_give_us_your_poor"
+		}
+	}
+	
+	focus = {
+		id = NYC_overtures_new_orleans
+		icon = GFX_goal_NYC_Overture_Louisiana
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_city_that_never_sins
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 1
+		y = 5
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_overtures_new_orleans"
+		}
+	}
+	
+	focus = {
+		id = NYC_shining_city_upon_hill
+		icon = GFX_goal_NYC_Shining_City
+		available = {
+			has_government = national_populist
+		}
+		prerequisite = {
+			focus = NYC_overtures_new_orleans
+		}
+		prerequisite = {
+			focus = NYC_give_us_your_poor
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 0
+		y = 6
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_shining_city_upon_hill"
+		}
+	}
+
+        ## Joe McWilliams ##
+		
+	focus = {
+		id = NYC_mcwilliams
+		icon = GFX_goal_NYC_McWilliam_Mobilizers
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Joe McWilliams"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_christian_front_takes_command
+		}
+		mutually_exclusive = {
+			focus = NYC_molloy
+			focus = NYC_pope
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = -2
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_mcwilliams"
+		}
+	}
+	
+	focus = {
+		id = NYC_preach_prosperity_gospel
+		icon = GFX_goal_NYC_Prosperity_Gospel
+		available = {
+			has_government = national_populist
+			OR = {
+				has_country_leader = {
+					name = "Joe McWilliams"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Thomas Edmund Molloy"
+					ruling_only = yes
+				}
+			}
+		}
+		prerequisite = {
+			focus = NYC_mcwilliams
+			focus = NYC_molloy
+		}
+		relative_position_id = NYC_mcwilliams
+		x = 1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_preach_prosperity_gospel"
+		}
+	}
+	
+	focus = {
+		id = NYC_purification_in_name_lord
+		icon = GFX_goal_NYC_Purification
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Joe McWilliams"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_mcwilliams
+		}
+		relative_position_id = NYC_mcwilliams
+		x = -1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_purification_in_name_lord"
+		}
+	}
+	
+	focus = {
+		id = NYC_protestant_big_apple
+		icon = GFX_goal_NYC_Protestant_New_York
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Joe McWilliams"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_purification_in_name_lord
+		}
+		prerequisite = {
+			focus = NYC_preach_prosperity_gospel
+		}
+		relative_position_id = NYC_mcwilliams
+		x = 0
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_protestant_big_apple"
+		}
+	}
+
+        ## Thomas Edmund Molloy ##
+		
+	focus = {
+		id = NYC_molloy
+		icon = GFX_goal_NYC_Unified_Christian_Front
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Thomas Edmund Molloy"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_christian_front_takes_command
+		}
+		mutually_exclusive = {
+			focus = NYC_mcwilliams
+			focus = NYC_pope
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 0
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_molloy"
+		}
+	}
+	
+	focus = {
+		id = NYC_one_city_under_one_god
+		icon = GFX_goal_NYC_Under_God
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Thomas Edmund Molloy"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_preach_prosperity_gospel
+		}	
+		prerequisite = {
+			focus = NYC_catholic_distributism_for_needy
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 0
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_one_city_under_one_god"
+		}
+	}
+    
+        ## Generoso Pope ##
+		
+	focus = {
+		id = NYC_pope
+		icon = GFX_goal_NYC_Pope_Association
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Generoso Pope"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_christian_front_takes_command
+		}
+		mutually_exclusive = {
+			focus = NYC_molloy
+			focus = NYC_mcwilliams
+		}
+		relative_position_id = NYC_christian_front_takes_command
+		x = 2
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_pope"
+		}
+	}
+	
+	focus = {
+		id = NYC_catholic_distributism_for_needy
+		icon = GFX_goal_NYC_Catholic_Distributism_Poor
+		available = {
+			has_government = national_populist
+			OR = {
+				has_country_leader = {
+					name = "Thomas Edmund Molloy"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Generoso Pope"
+					ruling_only = yes
+				}
+			}
+		}
+		prerequisite = {
+			focus = NYC_pope
+			focus = NYC_molloy
+		}
+		relative_position_id = NYC_pope
+		x = -1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_catholic_distributism_for_needy"
+		}
+	}
+	
+	focus = {
+		id = NYC_legionnairism_fit_big_apple
+		icon = GFX_goal_NYC_Cath_Legion
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Generoso Pope"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_pope
+		}
+		relative_position_id = NYC_pope
+		x = 1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_legionnairism_fit_big_apple"
+		}
+	}
+	
+	focus = {
+		id = NYC_catholic_new_york
+		icon = GFX_goal_NYC_Catholic_New_York
+		available = {
+			has_government = national_populist
+			has_country_leader = {
+				name = "Generoso Pope"
+				ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = NYC_legionnairism_fit_big_apple
+		}
+		prerequisite = {
+			focus = NYC_catholic_distributism_for_needy
+		}
+		relative_position_id = NYC_pope
+		x = 0
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NYC_catholic_new_york"
+		}
+	}
 	
 	### Harlem Mobsters ###
 	

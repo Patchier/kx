@@ -2908,6 +2908,82 @@ SpriteTypes = {
 		name = "GFX_goal_NYC_Self_Sufficent"
 		texturefile = "gfx/interface/goals/goal_NYC_Self_Sufficent.png"
 	}
+	spriteType = {
+		name = "GFX_goal_NYC_Cath_Legion"
+		texturefile = "gfx/interface/goals/NYC_Cath_Legion.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Catholic_Distributism_Poor"
+		texturefile = "gfx/interface/goals/NYC_Catholic_Distributism_Poor.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Catholic_New_York"
+		texturefile = "gfx/interface/goals/NYC_Catholic_New_York.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Christian_Front"
+		texturefile = "gfx/interface/goals/NYC_Christian_Front.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Give_Poor"
+		texturefile = "gfx/interface/goals/NYC_Give_Poor.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Holy_Civil_Rights"
+		texturefile = "gfx/interface/goals/NYC_Holy_Civil_Rights.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_McWilliam_Mobilizers"
+		texturefile = "gfx/interface/goals/NYC_McWilliam_Mobilizers.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Overture_Louisiana"
+		texturefile = "gfx/interface/goals/NYC_Overture_Louisiana.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Pious_NYPD"
+		texturefile = "gfx/interface/goals/NYC_Pious_NYPD.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Pope_Association"
+		texturefile = "gfx/interface/goals/NYC_Pope_Association.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Prosperity_Gospel"
+		texturefile = "gfx/interface/goals/NYC_Prosperity_Gospel.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Protestant_New_York"
+		texturefile = "gfx/interface/goals/NYC_Protestant_New_York.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Purification"
+		texturefile = "gfx/interface/goals/NYC_Purification.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Salt_Light"
+		texturefile = "gfx/interface/goals/NYC_Salt_Light.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Shining_City"
+		texturefile = "gfx/interface/goals/NYC_Shining_City.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Sinless_New_York"
+		texturefile = "gfx/interface/goals/NYC_Sinless_New_York.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Tammany_Catholics"
+		texturefile = "gfx/interface/goals/NYC_Tammany_Catholics.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Under_God"
+		texturefile = "gfx/interface/goals/NYC_Under_God.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Unified_Christian_Front"
+		texturefile = "gfx/interface/goals/NYC_Unified_Christian_Front.png"
+	}
     spriteType = {
 		name = "GFX_goal_BBR_black_israelites"
 		texturefile = "gfx/interface/goals/BBR_black_israelites.png"
