@@ -613,9 +613,9 @@ spriteTypes = {
 	    name = "GFX_ideology_de_leonism_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/de_leonism_group.png"
 	}
-        spriteType = {
-	    name = "GFX_ideology_georgism_synd_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/georgism_synd_group.png"
+	spriteType = {
+	    name = "GFX_ideology_syn_georgism_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/syn_georgism_group.png"
 	}
 
 	spriteType = {

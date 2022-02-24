@@ -389,9 +389,9 @@ defined_text = {
 	}
         text = {
 		trigger = {
-			has_country_leader_ideology = georgism_synd_subtype
+			has_country_leader_ideology = syn_georgism_subtype
 		}
-		localization_key = georgism_synd_subtype
+		localization_key = syn_georgism_subtype
 	}
 
 	text = {
