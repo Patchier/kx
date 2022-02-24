@@ -3654,7 +3654,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_red_roosevelt
-		icon = X
+		icon = GFX_goal_NYC_Red_Roosevelt
 		available = {
 			has_government = totalist
 		}
@@ -3662,7 +3662,7 @@ focus_tree = {
 			has_government = totalist
 		}
 		x = -12
-		y = 17
+		y = 18
 		relative_position_id = NYC_election
 		cost = 5
 
@@ -3678,7 +3678,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_clean_up_city_never_sleeps
-		icon = X
+		icon = GFX_goal_NYC_Cleanse_NYC
 		available = {
 			has_government = totalist
 		}
@@ -3705,7 +3705,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_gut_tammany
-		icon = GFX_goal_NYC_Tammany
+		icon = GFX_goal_NYC_Gut_Tammany
 		available = {
 			has_government = totalist
 		}
@@ -3733,7 +3733,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_replace_NYPD
-		icon = X
+		icon = GFX_goal_NYC_Replace_NYPD
 		available = {
 			has_government = totalist
 		}
@@ -3768,7 +3768,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_reshape_mobster_populism
-		icon = X
+		icon = GFX_goal_NYC_Redefine_Luciano_Populism
 		available = {
 			has_government = totalist
 		}
@@ -3798,7 +3798,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_red_deal
-		icon = X
+		icon = GFX_goal_NYC_Red_Deal
 		available = {
 			has_government = totalist
 		}
@@ -3822,7 +3822,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_one_union
-		icon = X
+		icon = GFX_goal_NYC_Five_Boroughs_One_Union
 		available = {
 			has_government = totalist
 		}
@@ -3846,7 +3846,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_empower_mayor
-		icon = X
+		icon = GFX_goal_NYC_Empower_Mayorship
 		available = {
 			has_government = totalist
 		}
@@ -3870,7 +3870,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_supreme_city_council
-		icon = X
+		icon = GFX_goal_NYC_Supreme_Council
 		available = {
 			has_government = totalist
 		}
@@ -3897,7 +3897,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_overture_to_london
-		icon = X
+		icon = GFX_goal_NYC_London_Overture
 		available = {
 			has_government = totalist
 			has_completed_focus = NYC_one_union
@@ -3922,7 +3922,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_internationale_benefactors
-		icon = X
+		icon = GFX_goal_NYC_International_Benefactors
 		available = {
 			has_government = totalist
 		}
@@ -3946,7 +3946,7 @@ focus_tree = {
 		
 	focus = {
 		id = NYC_maximist_miracle
-		icon = X
+		icon = GFX_goal_NYC_Maximist_Miracle
 		available = {
 			has_government = totalist
 		}
@@ -3976,7 +3976,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_new_man_new_york
-		icon = X
+		icon = GFX_goal_NYC_New_York_New_Man
 		available = {
 			has_government = totalist
 		}
@@ -4000,7 +4000,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_enforce_civil_rights
-		icon = X
+		icon = GFX_goal_NYC_Enforce_Civil_Rights
 		available = {
 			has_government = totalist
 		}
