@@ -4857,6 +4857,9 @@ focus_tree = {
 			unlock_decision_tooltip = NYC_invite_to_faction_MEX
 			unlock_decision_tooltip = NYC_invite_to_faction_PER
 			unlock_decision_tooltip = NYC_invite_to_faction_CHI
+			unlock_decision_tooltip = NYC_invite_to_faction_BHC
+			unlock_decision_tooltip = NYC_invite_to_faction_INC
+			unlock_decision_tooltip = NYC_invite_to_faction_CEN
 		}
 	}
     focus = {

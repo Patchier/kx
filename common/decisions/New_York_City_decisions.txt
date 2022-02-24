@@ -770,7 +770,103 @@ NYC_Non_Commie_Internationale_decisions = {
 				}
 			}
 		}
-	}                    
+	}  
+	NYC_invite_to_faction_BHC = {
+		icon = ger_military_buildup
+		
+		available = {
+			is_faction_leader = yes
+		}
+		
+		visible = {
+			NYC = {
+				has_completed_focus = NYC_anti_communist_internationalism
+			}
+                        BHC = {
+                               has_government = radical_socialist
+                               has_government = syndicalist
+		                                                }
+		}
+		days_remove = 7
+		days_re_enable = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 30
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_BHC"
+			BHC = {
+				country_event = {
+					id = NYC_flavor.3338
+					days = 2
+				}
+			}
+		}
+	} 
+	NYC_invite_to_faction_CEN = {
+		icon = ger_military_buildup
+		
+		available = {
+			is_faction_leader = yes
+		}
+		
+		visible = {
+			NYC = {
+				has_completed_focus = NYC_anti_communist_internationalism
+			}
+                        CEN = {
+                               has_government = radical_socialist
+                               has_government = syndicalist
+		                                                }
+		}
+		days_remove = 7
+		days_re_enable = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 30
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_CEN"
+			CEN = {
+				country_event = {
+					id = NYC_flavor.3338
+					days = 2
+				}
+			}
+		}
+	}
+	NYC_invite_to_faction_INC = {
+		icon = ger_military_buildup
+		
+		available = {
+			is_faction_leader = yes
+		}
+		
+		visible = {
+			NYC = {
+				has_completed_focus = NYC_anti_communist_internationalism
+			}
+                        INC = {
+                               has_government = radical_socialist
+                               has_government = syndicalist
+		                                                }
+		}
+		days_remove = 7
+		days_re_enable = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 30
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_INC"
+			INC = {
+				country_event = {
+					id = NYC_flavor.3338
+					days = 2
+				}
+			}
+		}
+	}                   
 
 }
 NYC_New_Negro_Internationale_decisions = {
