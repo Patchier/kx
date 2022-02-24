@@ -180,6 +180,24 @@ ideas = {
 			}
 		}
 		
+		NYC_maximist_miracle = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_maximist_miracle"}
+			available = {
+				has_government = totalist
+			}
+			picture = new_liberalism
+			modifier = {
+				production_factory_max_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.10
+				stability_weekly_factor = 0.001
+				political_power_gain = 0.01
+				consumer_goods_factor = -0.03
+				production_factory_efficiency_gain_factor = 0.02
+				party_popularity_stability_factor = 0.2
+			}
+		}
+		
 		NYC_one_union = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_one_union"}
 			available = {
@@ -208,24 +226,6 @@ ideas = {
 				trade_opinion_factor = 0.20
 				line_change_production_efficiency_factor = 0.02
 				production_lack_of_resource_penalty_factor = -0.03
-			}
-		}
-		
-		NYC_maximist_miracle = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_maximist_miracle"}
-			available = {
-				has_government = totalist
-			}
-			picture = new_liberalism
-			modifier = {
-				production_factory_max_efficiency_factor = 0.10
-				industrial_capacity_factory = 0.10
-				production_speed_buildings_factor = 0.10
-				stability_weekly_factor = 0.001
-				political_power_gain = 0.01
-				consumer_goods_factor = -0.03
-				production_factory_efficiency_gain_factor = -0.02
-				party_popularity_stability_factor = 0.2
 			}
 		}
 		

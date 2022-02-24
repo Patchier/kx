@@ -4009,7 +4009,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_maximist_miracle"
 			swap_ideas = {
-				remove_idea = NYC_supreme_city_council
+				remove_idea = NYC_red_deal2
 				add_idea = NYC_maximist_miracle
 			}
 		}
@@ -4069,15 +4069,16 @@ focus_tree = {
 		}
 	}
 
-        ### Christian Front ###
+	### Christian Front ###
+	
 	focus = {
 		id = NYC_christian_front_takes_command
 		icon = GFX_goal_NYC_Christian_Front
 		available = {
 			has_government = national_populist
 		}
-		x = 24
-		y = 17
+		x = 0
+		y = 23
 		cost = 5
 
 		ai_will_do = {
@@ -4284,7 +4285,7 @@ focus_tree = {
 		}
 	}
 
-        ## Joe McWilliams ##
+	## Joe McWilliams ##
 		
 	focus = {
 		id = NYC_mcwilliams
@@ -4408,7 +4409,7 @@ focus_tree = {
 		}
 	}
 
-        ## Thomas Edmund Molloy ##
+	## Thomas Edmund Molloy ##
 		
 	focus = {
 		id = NYC_molloy
@@ -4471,7 +4472,7 @@ focus_tree = {
 		}
 	}
     
-        ## Generoso Pope ##
+	## Generoso Pope ##
 		
 	focus = {
 		id = NYC_pope
@@ -6749,7 +6750,7 @@ focus_tree = {
 	focus = {
 		id = NYC_protect_NYC
 		icon = GFX_goal_NYC_Protect_New_York_City
-		x = 23
+		x = 28
 		y = 9
 		available = {
 			has_completed_focus = NYC_election

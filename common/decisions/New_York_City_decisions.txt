@@ -181,7 +181,7 @@ NYC_foreign_policy = {
            OR = {
 				has_completed_focus = NYC_radical_internationalism
 				has_completed_focus = NYC_anti_communist_internationalism
-				}
+			}
 		}
 		
 		cost = 0
@@ -272,7 +272,7 @@ NYC_foreign_policy = {
            OR = {
 				has_completed_focus = NYC_radical_internationalism
 				has_completed_focus = NYC_anti_communist_internationalism
-				}
+			}
 		}
 		
 		cost = 0
@@ -300,7 +300,7 @@ NYC_foreign_policy = {
 	}
 }
 NYC_Non_Commie_Internationale_decisions = {
-       	NYC_invite_to_faction_CHI = {
+	NYC_invite_to_faction_CHI = {
 		icon = ger_military_buildup
 		
 		available = {
@@ -344,10 +344,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        MEX = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			MEX = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -376,10 +376,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        PER = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			PER = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -408,10 +408,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        PRU = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			PRU = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -440,9 +440,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        SKM = {
-                               has_government = radical_socialist
-		                                                }
+			SKM = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -471,9 +471,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        LIB = {
-                               has_government = radical_socialist
-		                                                }
+			LIB = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -502,11 +502,11 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        KIV = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-                               has_government = social_democrat
-		                                                }
+			KIV = {
+				has_government = radical_socialist
+				has_government = syndicalist
+				has_government = social_democrat
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -535,9 +535,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        GAB = {
-                               has_government = radical_socialist
-		                                                }
+			GAB = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -566,10 +566,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        URG = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			URG = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -598,10 +598,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        PAR = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			PAR = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -630,9 +630,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        KLY = {
-                               has_government = radical_socialist
-		                                                }
+			KLY = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -661,9 +661,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        BRY = {
-                               has_government = radical_socialist
-		                                                }
+			BRY = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -692,9 +692,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        YAK = {
-                               has_government = social_democrat
-		                                                }
+			YAK = {
+				has_government = social_democrat
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -723,9 +723,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        HAW = {
-                               has_government = radical_socialist
-		                                                }
+			HAW = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -754,9 +754,9 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        MON = {
-                               has_government = radical_socialist
-		                                                }
+			MON = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -785,10 +785,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        BHC = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			BHC = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -817,10 +817,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        CEN = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			CEN = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -849,10 +849,10 @@ NYC_Non_Commie_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_anti_communist_internationalism
 			}
-                        INC = {
-                               has_government = radical_socialist
-                               has_government = syndicalist
-		                                                }
+			INC = {
+				has_government = radical_socialist
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -884,9 +884,9 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        LIB = {
-                               has_government = radical_socialist
-		                                                }
+			LIB = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -915,9 +915,9 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        GHA = {
-                               has_government = radical_socialist
-		                                                }
+			GHA = {
+				has_government = radical_socialist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -946,12 +946,12 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        KIV = {
-                            exists = yes
-                         NOT = {
-                              is_faction_leader = yes
-                                                    }
-		        }
+			KIV = {
+				exists = yes
+				NOT = {
+					is_faction_leader = yes
+				}
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -969,7 +969,7 @@ NYC_New_Negro_Internationale_decisions = {
 			}
 		}
 	}
-        NYC_invite_to_faction_KIK = {
+	NYC_invite_to_faction_KIK = {
 		icon = ger_military_buildup
 		
 		available = {
@@ -980,12 +980,12 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        KIK = {
-                               has_government = radical_socialist
-                         }
-                         NOT = {
-                              is_faction_leader = yes
-                         }
+			KIK = {
+				has_government = radical_socialist
+			}
+			NOT = {
+				is_faction_leader = yes
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -1003,7 +1003,7 @@ NYC_New_Negro_Internationale_decisions = {
 			}
 		}
 	}
-        NYC_invite_to_faction_LPD = {
+	NYC_invite_to_faction_LPD = {
 		icon = ger_military_buildup
 		
 		available = {
@@ -1014,14 +1014,14 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        LPD = {
-                           has_country_leader = {
+			LPD = {
+				has_country_leader = {
 					name = "Simon Kimbangu"
-			 }
-                         NOT = {
-                              is_faction_leader = yes
-                                                    }
-		        }
+				}
+				NOT = {
+					is_faction_leader = yes
+				}
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -1039,7 +1039,7 @@ NYC_New_Negro_Internationale_decisions = {
 			    }
 		   }
 	}
-        NYC_invite_to_faction_HAI = {
+	NYC_invite_to_faction_HAI = {
 		icon = ger_military_buildup
 		
 		available = {
@@ -1050,15 +1050,15 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        HAI = {
-                          OR = {
-                            has_government = national_populist
-                            has_government = syndicalist
-                         }
-                         NOT = {
-                              is_faction_leader = yes
-                                                    }
-		        }
+			HAI = {
+				OR = {
+					has_government = national_populist
+					has_government = syndicalist
+				}
+				NOT = {
+					is_faction_leader = yes
+				}
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -1076,7 +1076,7 @@ NYC_New_Negro_Internationale_decisions = {
 			}
 		}
 	}
-        NYC_invite_to_faction_CAF = {
+	NYC_invite_to_faction_CAF = {
 		icon = ger_military_buildup
 		
 		available = {
@@ -1087,9 +1087,9 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        CAF = {
-                            has_government = syndicalist
-		        }
+			CAF = {
+				has_government = syndicalist
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
@@ -1107,7 +1107,7 @@ NYC_New_Negro_Internationale_decisions = {
 			}
 		}
 	}
-        NYC_invite_to_faction_BBR = {
+	NYC_invite_to_faction_BBR = {
 		icon = ger_military_buildup
 		
 		available = {
@@ -1118,9 +1118,9 @@ NYC_New_Negro_Internationale_decisions = {
 			NYC = {
 				has_completed_focus = NYC_radical_internationalism
 			}
-                        BBR = {
-                               exists = yes
-		        }
+			BBR = {
+				exists = yes
+			}
 		}
 		days_remove = 7
 		days_re_enable = 0
