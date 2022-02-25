@@ -66,6 +66,10 @@ POLITICS_LANSKY_DESC:0 "Widely known as the Mob’s Accountant due to his legend
 POLITICS_SIEGEL_DESC:0 "A fan of gambling and entertainment like none other, Benjamin ‘Bugsy’ Siegel’ and his gang of thugs and killers for hire Murder, Inc. have seized control of the Commission and the Big Apple in order to eliminate all competition so that all profits and benefits of both New York and our international criminal network go directly into their pockets. Born in Brooklyn to poor Ashkenazi Jews in 1906, Bugsy Siegel is the only one of the three dominant bosses of the Commission to be born in America. Entering the criminal world while just a preteen, Siegel has been immersed in violence and bloodshed since before his 13th birthday, and has long held deep ties to the Jewish and Italian criminal outfits that dominated NYC as a killer for hire and gambling expert. Forming first the Bugs and Meyer Mob with childhood friend Meyer Lansky before eventually transforming it into Murder, Incorporated before joining Luciano’s Commission, Siegel now stands as the most powerful man in NYC. With a dream of building a gambling and racketeering empire that spreads across all of America and beyond, Bugsy Siegel is as fierce and determined as he is cutthroat and calculating, so woe be to any foolish enough to stand in his way."
 POLITICS_FDR_JR_DESC:0 "Few names carry more weight in modern American politics than Roosevelt, even with the fractured state of the former Union, for the Roosevelts have served America and her people proudly for generations. Franklin Delano Roosevelt Jr. is just one member of this esteemed family, and yet he has sought out on his own in order to blaze his own path. Born in August 1914, FDR Jr. was birthed into a world aflame, but lived a sheltered life in New York despite being born while his parents were vacationing in Canada. Upon the untimely death of his father when FDR Jr. and his siblings were only children, he and his brothers were taken in by close family friends in England shortly after their successful revolution, while his sister was left in the care of their mother Eleanor. Living abroad with his new adoptive family the Mosleys in London, the young FDR Jr. grew up with his brothers in a rapidly evolving revolutionary environment. All of them took to the regimented life of the early Revolution well, and were quickly swept up in the Red Wave. However, it was FDR Jr. that grew closest to their new caretaker Oswald Mosely, becoming deeply invested in the Maximist cause. With the rise of an independent New York City, FDR Jr. rallied his brothers to his new cause - to bring Mosley’s Maximism form-fit for Americans to the Big Apple. Though still a young man, this firebrand is fierce, cunning, and dedicated to the cause, now leading his brothers and other like-minded Totalists and Communists in New York City on a blazing path towards an egalitarian and totalitarian Maximist utopia."
 
+POLITICS_HARRISON_DESC:0"Hailed as the ‘Black Socrates’ of New York, Hubert Harrison is the foremost figure of Black Socialism in the Big Apple. Born in 1883 in St. Croix in what is now the U.S. Virgin Islands, Hubert Harrison was born to freed slaves and lived a life of poverty alongside his lifelong friend and fellow Socialist D. Hamilton Jackson. Together, the two went through school together while enriching themselves with the knowledge of Socialist theory and African culture. At age 17 in 1900, Harrison would leave his island home and travel to another group of islands - the metropolis of New York City. Here, he moved in with his older sister who had come to America earlier, but was immediately hit with the realities of racially oppressive Jim Crow America. Horrified by rampant lynchings and race crimes rising in frequency across the nation, Harrison fully dove into his work of social and civil activism while working a string of low-paying, labor-intesive jobs and attending night school. \nAlways gifted with a genius-level intellect, school came easy to Harrison despite these challenges, and after graduating he has continued to be an astute autodidact in multiple fields ranging from history and sociology to philosophy and theory. After marrying his wife Irene in 1909 and working in the City for a decade, Harrison began sending letters to the New York Times and other papers about topics he felt needed addressing such as civil rights or Darwin’s Theory of Evolution, Harrison became further disgruntled with the world, furthering his dive into Socialism modeled on W.E.B. Du Bois, as well as into the freethought movement, agnostic atheism, Georgism, and the blooming Harlem Renaisance where he would help start the New Negro Movement. Continuing to work tirelessly for decades, Harrison would go on a political odyssey like none other; first supporting then renouncing the Garvey Movement for its hateful rhetoric, finding allies in groups like the AFL and NAACP, and even making new enemies such as the Black nationalist radical Ira Kemp or the ‘White pet’ Booker T. Washington. Through it all, even facing a brush with death during appendicitis surgery that nearly killed him, Hubert Harrison has not given up the fight to bring honor and respect to his distinct peoples while also fighting for equality and Socialism for all - a perseverance that has made him one of the most popular faces around. With the City that Never Sleeps now in his hands, it is up to the ingenious, humanistic, freethinking Socrates of Harlem to save New York City."
+
+POLITICS_CROSSWAITH_DESC:0 "Born in 1892 in what used to be the Danish West Indies, Frank Crosswaith emigrated from his native St. Croix during his teenage years, landing himself in the heart of Harlem just as the local labor movements began to rise in prominence. Joining a local elevator operators’ union and later graduating from high school, Crosswaith won a scholarship from a Socialist newspaper - the Jewish Daily Forward - which would land him at the prestigious Rand School of Social Science where he would study and be further embedded into the local Socialist movement through the SPA. After graduating, Crosswaith rose alongside other major New York-based Socialists such as A. Philip Randolph and Hubert Harrison while developing his own form of non-discriminatory De Leonist-inspired Socialism, rising to lead multiple different unions and even running a close but ultimately failed race for Secretary of State of New York before forming his own Negro Labor Committee in 1935. Now, with the radical Leftist forces of NYC rallied behind him, this raceblind De Leonist, nicknamed by his allies as ‘the Negro Debs’ after his contemporary Eugene V. Debs, aims to bring true racial equality, equitable freedom, and democratic American-formed Syndicalism to the Big Apple."
+
 ### Tooltips ###
 NYC_steinbeck:0 "§VJohn Steinbeck§! has been elected Mayor"
 NYC_trump:0 "§mFred Trump§! has been elected Mayor"
@@ -144,7 +148,7 @@ NYC_Garvey_Influence_desc:0 "Despite his criminal activities, Casper Holstein ha
 NYC_Gambling_New_York:0 "Gambling with the Fate of New York"
 NYC_Gambling_New_York_desc:0 "Under the control of the Harlem kingpins, New York City has been transformed into the greatest gambling haven the world has ever seen, all atop the backs of our outfits and hard work. As the dice fly and the cards fall, our profit only continues to skyrocket, and with it so too does our prosperity and the quality of life of our citizens. The City that Never Sleeps is now supercharged on a blend of crime and vice, and now we await what our bright new future has in store for us."
 
-NYC_harrison_thought_idea:0 "Harrison Thought"
+NYC_harrison_thought_idea:0 "The Black Socrates"
 NYC_harrison_thought_idea_desc:0 ""
 
 NYC_intellectual_socialism_idea:0 "Intellectual Socialism"
@@ -153,7 +157,7 @@ NYC_intellectual_socialism_idea_desc:0 ""
 NYC_father_of_harlem_radicalism_idea:0 "Father of Harlem Radicalism"
 NYC_father_of_harlem_radicalism_idea_desc:0 ""
 
-NYC_crosswaith_thought_idea:0 "Crosswaith Thought"
+NYC_crosswaith_thought_idea:0 "The Negro Debs"
 NYC_crosswaith_thought_idea_desc:0 ""
 
 NYC_de_leonism_idea:0 "De Leonism"
@@ -164,6 +168,18 @@ NYC_colorblind_proletariat_idea_desc:0 ""
 
 NYC_philisophical_nyc_idea:0 "Philosophical New York"
 NYC_philisophical_nyc_idea_desc:0 ""
+
+NYC_leader_of_nni:0 "Leader of the New Negro Internationale"
+NYC_leader_of_nni_desc:0 "We're the leader of the New Negro Internationale"
+
+NYC_leader_of_aci:0 "Leader of the Anti-Communist Internationale"
+NYC_leader_of_aci_desc:0 "We're the leader of the Anti-Communist Internationale"
+
+NYC_member_of_nni:0 "Member of the New Negro Internationale"
+NYC_member_of_nni_desc:0 "We're a member of the New Negro Internationale"
+
+NYC_member_of_aci:0 "Member of the Anti-Communist Internationale"
+NYC_member_of_aci_desc:0 "We're a member of the Anti-Communist Internationale"
 
 NYC_new_imperialism:0 "New American Imperialism"
 NYC_new_imperialism_desc:0 "Shocking the world and even ourselves, our isolated breakaway state - once fleeing from the brother war that consumed the nation - has somehow come out on top in the Second American Civil War. Now, following the whims of an internal faction of warhawks and seeking to revitalize and reconstruct America using tried and true War Economics, have decided to revive the spirit of Manifest Destiny and American Imperialism. We shall exert our influence and our might across the lands of the old American empire and beyond, reviving aspects of the Monroe Doctrine as we seek to dominate the New World in order to rebuild our new America."
@@ -606,7 +622,7 @@ NYC_a_black_caribbean_desc:0 "the Afro-Caribbean lands in the south must come un
 NYC_a_philosophical_new_york:0 "A Humanistic New York"
 NYC_a_philosophical_new_york_desc:0 "something about Philosophy coming far in New York"
 
-NYC_red_roosevelt:0 "The Red Roosevelt"
+NYC_red_roosevelt:0 "Rise of the Red Roosevelt"
 NYC_red_roosevelt_desc:0 ""
 NYC_clean_up_city_never_sleeps:0 "Clean Up the City that Never Sleeps"
 NYC_clean_up_city_never_sleeps_desc:0 ""
@@ -618,7 +634,7 @@ NYC_reshape_mobster_populism:0 "Reshape Luciano's Mobster Populism"
 NYC_reshape_mobster_populism_desc:0 ""
 NYC_red_deal:0 "A Red New Deal"
 NYC_red_deal_desc:0 ""
-NYC_one_union:0 "5 Burroughs, One Union"
+NYC_one_union:0 "Five Burroughs, One Union"
 NYC_one_union_desc:0 ""
 NYC_empower_mayor:0 "Empower the Mayorship"
 NYC_empower_mayor_desc:0 ""

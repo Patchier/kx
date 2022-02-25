@@ -4548,7 +4548,7 @@ country_event = { #Hubert Harrison(For Hubert/Crosswaith)
 	}
         create_country_leader = {
                 name = "Hubert Harrison"
-			desc = ""
+			desc = "POLITICS_HARRISON_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Hubert_Harrison.png"
 			expire = "1965.1.1"
 			ideology = syn_georgism_subtype
@@ -4581,7 +4581,7 @@ country_event = { # Crosswaith or Harrison (For Hubert/Crosswaith)
 		}
         create_country_leader = {
                  name = "Frank Crosswaith"
-			desc = ""
+			desc = "POLITICS_CROSSWAITH_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Frank_Rudolph_Crosswaith.png"
 			expire = "1965.1.1"
 			ideology = de_leonism_subtype
@@ -4612,7 +4612,7 @@ country_event = { # Forming Carribean (Crosswaith/Harrison Specific)
 		add_stability = -0.02
 	}
 }
-country_event = { #Asking countries to join
+country_event = { #Asking countries to join NNI
     id = NYC_flavor.3338
     immediate = {log = "[GetDateText]: [Root.GetName]: event NYC_flavor.3338"}
     title = NYC_flavor.3338.t
@@ -4634,10 +4634,46 @@ country_event = { #Asking countries to join
 		NYC = {
 			add_to_faction = ROOT 
 		}
+                ROOT = {
+                     add_ideas = NYC_member_of_nni 
 	}
 	
 	option = { #no
 		name = NYC_flavor.3338.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+}
+country_event = { #Asking countries to join ACI
+    id = NYC_flavor.3339
+    immediate = {log = "[GetDateText]: [Root.GetName]: event NYC_flavor.3339"}
+    title = NYC_flavor.3339.t
+	desc = NYC_flavor.3339.d
+    picture = GFX_report_event_generic_diplomacy1
+	
+	is_triggered_only = yes
+
+  
+	option = { #yes
+		name = NYC_flavor.3339.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 25
+				is_in_faction = no
+			}
+		}
+		NYC = {
+			add_to_faction = ROOT 
+		}
+                ROOT = {
+                     add_ideas = NYC_member_of_aci 
+	}
+	
+	option = { #no
+		name = NYC_flavor.3339.b
 		ai_chance = {
 			factor = 50
 		}

@@ -2291,4 +2291,20 @@ spriteTypes = {
 		name = "GFX_idea_NYC_garvey_influence"
 		texturefile = "gfx/interface/ideas/NYC/NYC_garvey_influence.png"
 	}
+	spriteType = {
+		name = "GFX_idea_NYC_black_debs"
+		texturefile = "gfx/interface/ideas/NYC/NYC_black_debs.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NYC_black_socrates"
+		texturefile = "gfx/interface/ideas/NYC/NYC_black_socrates.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NYC_negro_internationale_leader"
+		texturefile = "gfx/interface/ideas/NYC/NYC_negro_internationale_leader.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NYC_anti_communist_leader"
+		texturefile = "gfx/interface/ideas/NYC/NYC_anti_communist_leader.png"
+	}
 }

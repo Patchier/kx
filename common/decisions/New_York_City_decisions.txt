@@ -177,6 +177,12 @@ NYC_foreign_policy = {
 		allowed = {
 			tag = NYC
 		}
+     visible = {
+               OR = {
+			has_completed_focus = NYC_radical_internationalism
+			has_completed_focus = NYC_anti_communist_internationalism
+			}
+		}
         available = {
            OR = {
 				has_completed_focus = NYC_radical_internationalism
@@ -210,6 +216,12 @@ NYC_foreign_policy = {
 		allowed = {
 			tag = NYC
 		}
+     visible = {
+               OR = {
+			has_completed_focus = NYC_radical_internationalism
+			has_completed_focus = NYC_anti_communist_internationalism
+			}
+		}
         available = {
            OR = {
 				has_completed_focus = NYC_radical_internationalism
@@ -240,6 +252,12 @@ NYC_foreign_policy = {
 		allowed = {
 			tag = NYC
 		}
+     visible = {
+               OR = {
+			has_completed_focus = NYC_radical_internationalism
+			has_completed_focus = NYC_anti_communist_internationalism
+			}
+		}
         available = {
            OR = {
 				has_completed_focus = NYC_radical_internationalism
@@ -267,6 +285,12 @@ NYC_foreign_policy = {
         icon = generic_prepare_civil_war
 		allowed = {
 			tag = NYC
+		}
+     visible = {
+               OR = {
+			has_completed_focus = NYC_radical_internationalism
+			has_completed_focus = NYC_anti_communist_internationalism
+			}
 		}
         available = {
            OR = {
@@ -327,7 +351,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_CHI"
 			CHI = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -359,7 +383,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_MEX"
 			MEX = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -391,7 +415,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_PER"
 			PER = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -423,7 +447,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_PRU"
 			PRU = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -454,7 +478,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_SKM"
 			SKM = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -485,7 +509,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_LBR"
 			LIB = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -518,7 +542,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_KVU"
 			KIV = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -549,7 +573,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_GAB"
 			GAB = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -581,7 +605,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_URG"
 			URG = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -613,7 +637,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_PAR"
 			PAR = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -644,7 +668,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_KLY"
 			KLY = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -675,7 +699,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_BRY"
 			BRY = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -706,7 +730,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_HAW"
 			YAK = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -737,7 +761,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_HAW"
 			HAW = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -768,7 +792,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_MON"
 			MON = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -800,7 +824,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_BHC"
 			BHC = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -832,7 +856,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_CEN"
 			CEN = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
@@ -864,7 +888,7 @@ NYC_Non_Commie_Internationale_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision NYC_invite_to_faction_INC"
 			INC = {
 				country_event = {
-					id = NYC_flavor.3338
+					id = NYC_flavor.3339
 					days = 2
 				}
 			}
