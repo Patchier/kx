@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_sweep_tammany_aside
-		icon = GFX_goal_NYC_Tammany
+		icon = GFX_goal_NYC_Tammany_Broom
 		available = {
 			has_government = social_liberal
 		}
@@ -379,7 +379,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_work_releif_program
-		icon = GFX_goal_TEX_universal_jobs_registry
+		icon = GFX_goal_NYC_Work_Projects
 		available = {
 			has_government = social_liberal
 			has_completed_focus = NYC_public_works
@@ -443,7 +443,7 @@ focus_tree = {
 		
 	focus = {
 		id = NYC_shining_beacon
-		icon = GFX_CAL_american_festivals
+		icon = GFX_goal_NYC_Shining_Beacon
 		available = {
 			has_government = social_liberal
 		}
@@ -1574,7 +1574,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_break_free_of_tammany
-		icon = GFX_goal_NYC_Tammany
+		icon = GFX_goal_NYC_Tammany_Knife
 		available = {
 			has_government = market_liberal
 		}
@@ -1606,7 +1606,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_support_our_cops
-		icon = GFX_goal_CAL_fight_crime
+		icon = GFX_goal_NYC_Remove_Catholic_NYPD
 		available = {
 			has_government = market_liberal
 		}
@@ -1939,7 +1939,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_war_profiteering
-		icon = GRU_CORPORATE_MILITARY_INDUSTRIAL_COMPLEX
+		icon = GFX_goal_BAN_profit_economy
 		available = {
 			has_government = market_liberal
 		}
@@ -2017,7 +2017,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NYC_purge
-		icon = GFX_NEE_fight_the_mob
+		icon = GFX_goal_NYC_Kill_Mob
 		available = {
 			has_government = authoritarian_democrat
 		}
@@ -5787,7 +5787,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_funds_from_federal_reserve
-		icon = GFX_goal_gold_reserve
+		icon = GFX_goal_the_rich_get_richer
 		x = 3
 		y = 1
 		relative_position_id = NYC_city_that_never_sleeps
@@ -5834,7 +5834,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_maintain_trade_networks
-		icon = GFX_ITA_free_trade
+		icon = GFX_goal_CZE_export_work
 		x = 3
 		y = 3
 		relative_position_id = NYC_city_that_never_sleeps
@@ -6097,7 +6097,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_friends_in_high_place
-		icon = GFX_goal_COR_captains_of_industry
+		icon = GFX_CAL_rich_taxation
 		x = 2
 		y = 4
 		relative_position_id = NYC_city_that_never_sleeps

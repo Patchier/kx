@@ -2981,6 +2981,30 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/NYC_Under_God.png"
 	}
 	spriteType = {
+		name = "GFX_goal_NYC_Kill_Mob"
+		texturefile = "gfx/interface/goals/NYC_Kill_Mob.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Remove_Catholic_NYPD"
+		texturefile = "gfx/interface/goals/NYC_Remove_Catholic_NYPD.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Shining_Beacon"
+		texturefile = "gfx/interface/goals/NYC_Shining_Beacon.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Tammany_Broom"
+		texturefile = "gfx/interface/goals/NYC_Tammany_Broom.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Tammany_Knife"
+		texturefile = "gfx/interface/goals/NYC_Tammany_Knife.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Work_Projects"
+		texturefile = "gfx/interface/goals/NYC_Work_Projects.png"
+	}
+	spriteType = {
 		name = "GFX_goal_NYC_Unified_Christian_Front"
 		texturefile = "gfx/interface/goals/NYC_Unified_Christian_Front.png"
 	}
