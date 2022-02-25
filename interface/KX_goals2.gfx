@@ -2981,6 +2981,10 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/NYC_Under_God.png"
 	}
 	spriteType = {
+		name = "GFX_goal_NYC_Unified_Christian_Front"
+		texturefile = "gfx/interface/goals/NYC_Unified_Christian_Front.png"
+	}
+	spriteType = {
 		name = "GFX_goal_NYC_Kill_Mob"
 		texturefile = "gfx/interface/goals/NYC_Kill_Mob.png"
 	}
@@ -3005,8 +3009,12 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/NYC_Work_Projects.png"
 	}
 	spriteType = {
-		name = "GFX_goal_NYC_Unified_Christian_Front"
-		texturefile = "gfx/interface/goals/NYC_Unified_Christian_Front.png"
+		name = "GFX_goal_NYC_Pristine_NYC"
+		texturefile = "gfx/interface/goals/NYC_Pristine_NYC.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Break_Banks"
+		texturefile = "gfx/interface/goals/NYC_Break_Banks.png"
 	}
     spriteType = {
 		name = "GFX_goal_BBR_black_israelites"

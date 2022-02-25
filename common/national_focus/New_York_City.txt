@@ -199,7 +199,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_clean_up_the_city
-		icon = GFX_goal_USA_city_on_a_hill
+		icon = GFX_goal_NYC_Pristine_NYC
 		available = {
 			has_government = social_liberal
 		}
@@ -344,7 +344,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_break_free_from_banks
-		icon = GFX_goal_CRO_crack_the_banks
+		icon = GFX_goal_NYC_Break_Banks
 		available = {
 			has_government = social_liberal
 		}
