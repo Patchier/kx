@@ -47,7 +47,7 @@ USA = {
 		Scott Brandon Frank Benjamin Gregory Samuel Gideon Raymond Patrick Alexander Jack Dennis Jerry Tyler Aaron Jose Henry Douglas Adam 
 		Nathan Zachary Walter Kyle Harold Carl Jeremy Keith Roger Gerald Ethan Arthur Terry Christian Sean Lawrence Austin Joe Noah Jesse
 		Albert Bryan Billy Bruce Willie Jordan Dylan Alan Ralph Gabriel Roy Oscar Wayne Eugene Logan Randy Louis Russell Vincent Philip
-		Bradley Howard Lewis Norton Isaac Randolph Peter Hamilton Hiram Elkanah Wilburn Horace Felix Jerome Malvin Abner Chester Lafayette
+		Bradley Howard Lewis Norton Isaac Randolph Peter Hamilton Hiram Elkanah Wilburn Horace Felix Jerome Malvin Abner Chester Lafayette Amon
 		}
 	}
 	female = {
@@ -67,7 +67,7 @@ USA = {
 		Brooks Scott Richardson Johnson Walker Lewis Brown Carter Jenkins Green Jones Thomas James Harris Robinson Williams Jackson Lee Appleton
 		Andrews Atkins Pope Banks Barnard Barstow Bartlett Clayton Fry Hancock Davies Ewing Farnsworth Hooker Hunter Keyes Kimball McArthur McClellan
 		McCook McDowell Meade Paine Porter Potter Reynolds Rice Rhodes Seward Sheridan Stevens Stevenson Tyler Wade Warner Stuart Forrest Pickett Mosby
-		Hood Early Semmes Hampton Wheeler Gordon Floyd Wise French Gibbs Law Robertson Archer Lane Harrison Johnston Steele Travis Wells Baxter Arthur
+		Hood Early Semmes Hampton Wheeler Gordon Floyd Wise French Gibbs Law Robertson Archer Lane Harrison Johnston Steele Travis Wells Baxter Arthur Gus
 	}
 	callsigns = {
 		Buster Goose Bobbi Bud Butch Chappie Fish Gabby Hap Hooter Jackie Jimmy Kaos Lock Lightning Pancho Pete Pappy Blue Shorty "Mad Dog" Uncle Wings

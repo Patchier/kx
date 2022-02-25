@@ -1379,6 +1379,9 @@ ideas = {
 				production_lack_of_resource_penalty_factor = -0.01
 			}
 		}
+		
+		## Harlem Mobsters ##
+		
 		NYC_mafia_reconciled = {# Reconciled Mafia
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_mafia_reconciled"}
 			allowed = { always = no }
@@ -1588,6 +1591,189 @@ ideas = {
 				stability_weekly_factor = 0.03
 			}
 		}
+		
+		### CF Ideas ###
+		NYC_christian_front_takes_command = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_christian_front_takes_command"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = mob_activity
+			modifier = {
+				land_doctrine_cost_factor = -0.02
+				command_power_gain = 0.02
+			}
+		}
+		
+		NYC_salt_light = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_salt_light"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = mob_activity
+			modifier = {
+				land_doctrine_cost_factor = -0.05
+				command_power_gain = 0.02
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		NYC_city_that_never_sins = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_city_that_never_sinss"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = mob_activity
+			modifier = {
+				land_doctrine_cost_factor = -0.05
+				command_power_gain = 0.02
+				industrial_capacity_factory = 0.08
+				recruitable_population_factor = 0.01
+				production_speed_industrial_complex_factor = 0.02
+				production_speed_infrastructure_factor = 0.01
+			}
+		}
+		
+		NYC_shining_city_upon_hill = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_shining_city_upon_hill"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = mob_activity
+			modifier = {
+				land_doctrine_cost_factor = -0.05
+				command_power_gain = 0.02
+				industrial_capacity_factory = 0.08
+				recruitable_population_factor = 0.01
+				production_speed_industrial_complex_factor = 0.02
+				production_speed_infrastructure_factor = 0.01
+				production_factory_efficiency_gain_factor = 0.02
+				production_lack_of_resource_penalty_factor = -0.01
+				trade_opinion_factor = 0.2
+			}
+		}
+		
+		## McWilliams ##
+		
+		NYC_mcwilliams = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_mcwilliams"}
+			picture = NYC_bugsy
+			modifier = {
+				weekly_manpower = -50
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		NYC_purification_in_name_lord = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_purification_in_name_lord"}
+			picture = NYC_bugsy
+			modifier = {
+				weekly_manpower = -60
+				MONTHLY_POPULATION = -0.05
+				production_speed_buildings_factor = 0.05
+				national_populist_drift = 0.03
+				political_power_cost = -0.06
+				political_power_gain = 0.06
+			}
+		}
+		
+		NYC_protestant_big_apple = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_protestant_big_apple"}
+			picture = NYC_bugsy
+			modifier = {
+				weekly_manpower = -60
+				MONTHLY_POPULATION = -0.05
+				production_speed_buildings_factor = 0.08
+				paternal_autocrat_drift = 0.03
+				political_power_cost = -0.06
+				political_power_gain = 0.06
+				experience_gain_army = 0.02
+				army_attack_factor = 0.01
+			}
+		}
+		
+		NYC_preach_prosperity_gospel = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_preach_prosperity_gospel"}
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_start_efficiency_factor = 0.10
+				local_resources_factor = 0.03
+				production_speed_industrial_complex_factor = 0.02
+				production_speed_infrastructure_factor = 0.01
+			}
+		}
+		
+		
+		## Molloy Ideas ##
+		NYC_molloy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_molloy"}
+			picture = NYC_lansky
+			modifier = {
+				consumer_goods_factor = -0.02
+				line_change_production_efficiency_factor = 0.02
+			}
+		}
+		
+		NYC_one_city_under_one_god = {#
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_one_city_under_one_god"}
+			picture = NYC_lansky
+			modifier = {
+				political_power_gain = 0.05
+				local_resources_factor = 0.03
+				local_manpower = 0.03
+				production_factory_max_efficiency_factor = 0.02
+				production_factory_efficiency_gain_factor = 0.03
+				stability_factor = 0.05
+			}
+		}
+		
+		## Pope Ideas ##
+		NYC_pope = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_pope"}
+			picture = CZE_revolution_idea
+			removal_cost = -1
+			modifier = {
+				war_support_weekly = 0.005
+				army_morale_factor = 0.075
+				conscription = 0.02
+			}
+		}
+		
+		NYC_legionnairism_fit_big_apple = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_legionnairism_fit_big_apple"}
+			picture = CZE_revolution_idea
+			removal_cost = -1
+			modifier = {
+				war_support_weekly = 0.005
+				army_morale_factor = 0.075
+				conscription = 0.02
+				national_populist_drift = 0.02
+				command_power_gain = 0.02
+			}
+		}
+		
+		NYC_catholic_new_york = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_catholic_new_york"}
+			picture = CZE_revolution_idea
+			removal_cost = -1
+			modifier = {
+				war_support_weekly = 0.005
+				army_morale_factor = 0.075
+				conscription = 0.02
+				national_populist_drift = 0.02
+				command_power_gain = 0.02
+				stability_factor = 0.03
+				political_power_cost = -0.02
+			}
+		}
+		
+		NYC_catholic_distributism_for_needy = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_catholic_distributism_for_needy"}
+			picture = generic_army_war_college
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
 		### Economic Ideas ###
 		NYC_funds_from_federal_reserve = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_gold_reserve"}

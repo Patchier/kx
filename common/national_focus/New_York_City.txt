@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_sweep_tammany_aside
-		icon = GFX_goal_NYC_Tammany
+		icon = GFX_goal_NYC_Tammany_Broom
 		available = {
 			has_government = social_liberal
 		}
@@ -199,7 +199,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_clean_up_the_city
-		icon = GFX_goal_USA_city_on_a_hill
+		icon = GFX_goal_NYC_Pristine_NYC
 		available = {
 			has_government = social_liberal
 		}
@@ -344,7 +344,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_break_free_from_banks
-		icon = GFX_goal_CRO_crack_the_banks
+		icon = GFX_goal_NYC_Break_Banks
 		available = {
 			has_government = social_liberal
 		}
@@ -379,7 +379,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_work_releif_program
-		icon = GFX_goal_TEX_universal_jobs_registry
+		icon = GFX_goal_NYC_Work_Projects
 		available = {
 			has_government = social_liberal
 			has_completed_focus = NYC_public_works
@@ -443,7 +443,7 @@ focus_tree = {
 		
 	focus = {
 		id = NYC_shining_beacon
-		icon = GFX_CAL_american_festivals
+		icon = GFX_goal_NYC_Shining_Beacon
 		available = {
 			has_government = social_liberal
 		}
@@ -1574,7 +1574,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_break_free_of_tammany
-		icon = GFX_goal_NYC_Tammany
+		icon = GFX_goal_NYC_Tammany_Knife
 		available = {
 			has_government = market_liberal
 		}
@@ -1606,7 +1606,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_support_our_cops
-		icon = GFX_goal_CAL_fight_crime
+		icon = GFX_goal_NYC_Remove_Catholic_NYPD
 		available = {
 			has_government = market_liberal
 		}
@@ -1939,7 +1939,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_war_profiteering
-		icon = GRU_CORPORATE_MILITARY_INDUSTRIAL_COMPLEX
+		icon = GFX_goal_BAN_profit_economy
 		available = {
 			has_government = market_liberal
 		}
@@ -2017,7 +2017,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NYC_purge
-		icon = GFX_NEE_fight_the_mob
+		icon = GFX_goal_NYC_Kill_Mob
 		available = {
 			has_government = authoritarian_democrat
 		}
@@ -3575,6 +3575,10 @@ focus_tree = {
 					id = NYC.57
 					days = 60
 				}
+                                country_event = {
+					id = NYC_flavor.68
+					days = 90
+				}
 			}
 		}
 	}
@@ -4087,6 +4091,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_christian_front_takes_command"
+			custom_effect_tooltip = NYC_jesus_people_coup_tt
+			add_ideas = NYC_christian_front_takes_command
 		}
 	}
 	
@@ -4110,6 +4116,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_on_matter_tammany_catholics"
+			#### EVENT HERE WHEN LOG WRITES ONE ###
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.3
+			}
 		}
 	}
 	
@@ -4133,6 +4144,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_pious_allseeing_nypd"
+			swap_ideas = {
+				remove_idea = NYC_nypd
+				add_idea = NYC_nypd_2_corruption_embraced
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = -0.3
+			}
 		}
 	}
 	
@@ -4156,6 +4175,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_salt_light"
+			add_popularity = {
+				ideology = national_populist
+				popularity = 0.05
+			}
+			swap_ideas = {
+				remove_idea = NYC_christian_front_takes_command
+				add_idea = NYC_salt_light
+			}
 		}
 	}
 	
@@ -4179,6 +4206,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_question_civil_rights"
+			add_political_power = 100
+			add_popularity = {
+				ideology = national_populist
+				popularity = 0.05
+			}
+			### EVENT HERE WHEN LOG WRITES ONE ###
 		}
 	}
 	
@@ -4210,6 +4243,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_city_that_never_sins"
+			swap_ideas = {
+				remove_idea = NYC_salt_light
+				add_idea = NYC_city_that_never_sins
+			}
+			add_popularity = {
+				ideology = national_populist
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -4233,6 +4274,18 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_give_us_your_poor"
+			add_manpower = 2500
+			358 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = { 
+					type = infrastructure level = 1
+					instant_build = yes 
+				}
+				add_building_construction = { 
+					type = industrial_complex level = 1
+					instant_build = yes 
+				}
+			}
 		}
 	}
 	
@@ -4241,6 +4294,7 @@ focus_tree = {
 		icon = GFX_goal_NYC_Overture_Louisiana
 		available = {
 			has_government = national_populist
+			has_completed_focus = NYC_CW_intervention
 		}
 		prerequisite = {
 			focus = NYC_city_that_never_sins
@@ -4256,6 +4310,20 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_overtures_new_orleans"
+			every_country = {
+				limit = {
+					has_war_with = TEX
+				}
+				declare_war_on = {
+					target = PREV
+					type = annex_everything
+				}
+			}
+			TEX = {
+				set_country_flag = NYC_helped_us
+			}
+			custom_effect_tooltip = NYC_TEX_INTERVENTION_TT
+			set_global_flag = NYC_TEX_INTERVENTION
 		}
 	}
 	
@@ -4282,6 +4350,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_shining_city_upon_hill"
+			swap_ideas = {
+				remove_idea = NYC_city_that_never_sins
+				add_idea = NYC_shining_city_upon_hill
+			}
 		}
 	}
 
@@ -4315,6 +4387,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_mcwilliams"
+			add_ideas = NYC_mcwilliams
+			add_war_support = 0.1
 		}
 	}
 	
@@ -4349,6 +4423,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_preach_prosperity_gospel"
+			add_ideas = NYC_preach_prosperity_gospel
 		}
 	}
 	
@@ -4376,6 +4451,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_purification_in_name_lord"
+			swap_ideas = {
+				remove_idea = NYC_mcwilliams
+				add_idea = NYC_purification_in_name_lord
+			}
 		}
 	}
 	
@@ -4406,6 +4485,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_protestant_big_apple"
+			swap_ideas = {
+				remove_idea = NYC_purification_in_name_lord
+				add_idea = NYC_protestant_big_apple
+			}
 		}
 	}
 
@@ -4439,6 +4522,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_molloy"
+			add_ideas = NYC_molloy
+			add_stability = 0.1
 		}
 	}
 	
@@ -4469,6 +4554,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_one_city_under_one_god"
+			swap_ideas = {
+				remove_idea = NYC_molloy
+				add_idea = NYC_one_city_under_one_god
+			}
 		}
 	}
     
@@ -4502,6 +4591,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_pope"
+			add_ideas = NYC_pope
+			add_political_power = 100
 		}
 	}
 	
@@ -4536,6 +4627,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_catholic_distributism_for_needy"
+			add_ideas = NYC_catholic_distributism_for_needy
 		}
 	}
 	
@@ -4563,6 +4655,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_legionnairism_fit_big_apple"
+			swap_ideas = {
+				remove_idea = NYC_pope
+				add_idea = NYC_legionnairism_fit_big_apple
+			}
 		}
 	}
 	
@@ -4593,6 +4689,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_catholic_new_york"
+			swap_ideas = {
+				remove_idea = NYC_legionnairism_fit_big_apple
+				add_idea = NYC_catholic_new_york
+			}
 		}
 	}
 	
@@ -5689,7 +5789,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_funds_from_federal_reserve
-		icon = GFX_goal_gold_reserve
+		icon = GFX_goal_the_rich_get_richer
 		x = 3
 		y = 1
 		relative_position_id = NYC_city_that_never_sleeps
@@ -5736,7 +5836,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_maintain_trade_networks
-		icon = GFX_ITA_free_trade
+		icon = GFX_goal_CZE_export_work
 		x = 3
 		y = 3
 		relative_position_id = NYC_city_that_never_sleeps
@@ -5999,7 +6099,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_friends_in_high_place
-		icon = GFX_goal_COR_captains_of_industry
+		icon = GFX_CAL_rich_taxation
 		x = 2
 		y = 4
 		relative_position_id = NYC_city_that_never_sleeps
@@ -6903,6 +7003,10 @@ focus_tree = {
 				has_government = social_liberal
 				has_government = social_democrat
 				has_government = radical_socialist
+				has_country_leader = {
+					name = "Franklin D. Roosevelt Jr."
+					ruling_only = yes
+				}
 			}
 		}
 		relative_position_id = NYC_protect_NYC
@@ -6990,7 +7094,8 @@ focus_tree = {
 			has_war = no
 			is_in_faction = no
 			OR = {
-				has_government = radical_socialist
+				has_government = totalist
+				has_government = syndicalist
 				has_government = paternal_autocrat
 			}
 			if = {
@@ -7032,7 +7137,12 @@ focus_tree = {
 			}
 			custom_effect_tooltip = NYC_CSA_INTERVENTION_TT
 			set_global_flag = NYC_CSA_INTERVENTION
-			set_country_leader_ideology = red_tinted_autocracy_subtype
+			if = {
+				limit = {
+					has_government = paternal_autocrat
+				}
+				set_country_leader_ideology = red_tinted_autocracy_subtype
+			}
 			hidden_effect = {
 				country_event = {
 					id = NYC_flavor.12
