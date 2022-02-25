@@ -1461,7 +1461,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_harrison_thought"}
 			allowed = { always = no }
 			removal_cost = -1
-			picture = free_thought_societies
+			picture = NYC_black_socrates
 			modifier = {
 				stability_factor = 0.02
 				political_power_gain = 0.02
@@ -1492,7 +1492,7 @@ ideas = {
 		NYC_crosswaith_thought_idea = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_back_to_the_people"}
 			allowed = { always = no }
-			picture = american_guildism
+			picture = NYC_black_debs
 			modifier = {
 				political_power_gain = 0.02
 				local_resources_factor = 0.03
@@ -1532,6 +1532,60 @@ ideas = {
 				production_speed_infrastructure_factor = 0.01
 				consumer_goods_factor = -0.03
 				recruitable_population_factor = 0.02
+			}
+		}
+		NYC_leader_of_nni = {#
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_leader_of_nni"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYC_negro_internationale_leader
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+				party_popularity_stability_factor = 0.05
+				syndicalist_drift = 0.03
+				conscription = 0.02
+			}
+		}
+		NYC_leader_of_aci = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_leader_of_aci"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYC_anti_communist_leader
+			modifier = {
+				political_power_gain = 0.05
+				party_popularity_stability_factor = 0.05
+				syndicalist_drift = 0.03
+				totalist_drift = -0.05
+				war_support_factor = 0.03
+			}
+		}
+		NYC_member_of_nni = {#
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_member_of_nni"}
+			allowed = { always = no }
+			picture = NYC_negro_internationale_leader
+			modifier = {
+				political_power_gain = 0.04
+				stability_factor = 0.03
+				political_power_gain = 0.02
+				consumer_goods_factor = -0.02
+				syndicalist_drift = 0.03
+				totalist_drift = -0.05
+				stability_weekly_factor = 0.03
+			}
+		}
+		NYC_member_of_aci = {# 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_member_of_aci"}
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYC_anti_communist_leader
+			modifier = {
+				political_power_gain = 0.05
+				party_popularity_stability_factor = 0.05
+				syndicalist_drift = 0.03
+				totalist_drift = -0.05
+				war_support_factor = 0.03
+				stability_weekly_factor = 0.03
 			}
 		}
 		### Economic Ideas ###
