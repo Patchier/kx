@@ -1153,7 +1153,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_cultural_expansion
-		icon = GFX_goal_generic_culture2
+		icon = GFX_goal_NYC_Metro_Culture
 		available = {
 			has_government = radical_socialist
 		}
@@ -1437,7 +1437,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_CSA_nonagression
-		icon = GFX_goal_CSA
+		icon = GFX_goal_NYC_Understand_Syndicalism
 		available = {
 			has_government = radical_socialist
 		}
