@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_sweep_tammany_aside
-		icon = GFX_goal_NYC_Tammany
+		icon = GFX_goal_NYC_Tammany_Broom
 		available = {
 			has_government = social_liberal
 		}
@@ -199,7 +199,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_clean_up_the_city
-		icon = GFX_goal_USA_city_on_a_hill
+		icon = GFX_goal_NYC_Pristine_NYC
 		available = {
 			has_government = social_liberal
 		}
@@ -243,7 +243,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_democratic_unity
-		icon = GFX_goal_TEX_true_democrats
+		icon = GFX_goal_NYC_Fusion_Party
 		available = {
 			has_government = social_liberal
 		}
@@ -311,7 +311,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_reform_civil_service
-		icon = GFX_NEE_expand_civil_service
+		icon = GFX_goal_NYC_Reform_Civil
 		available = {
 			has_government = social_liberal
 		}
@@ -344,7 +344,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_break_free_from_banks
-		icon = GFX_goal_CRO_crack_the_banks
+		icon = GFX_goal_NYC_Break_Banks
 		available = {
 			has_government = social_liberal
 		}
@@ -379,7 +379,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_work_releif_program
-		icon = GFX_goal_TEX_universal_jobs_registry
+		icon = GFX_goal_NYC_Work_Projects
 		available = {
 			has_government = social_liberal
 			has_completed_focus = NYC_public_works
@@ -443,7 +443,7 @@ focus_tree = {
 		
 	focus = {
 		id = NYC_shining_beacon
-		icon = GFX_CAL_american_festivals
+		icon = GFX_goal_NYC_Shining_Beacon
 		available = {
 			has_government = social_liberal
 		}
@@ -476,7 +476,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_talk_to_the_people
-		icon = GFX_goal_CZE_war_of_words
+		icon = GFX_goal_NYC_Chats
 		available = {
 			has_government = social_liberal
 		}
@@ -658,7 +658,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_action_against_criminals
-		icon = GFX_goal_generic_crisis
+		icon = GFX_goal_NYC_Police_TPose
 		available = {
 			has_government = social_democrat
 		}
@@ -860,7 +860,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_public_broadcasts
-		icon = GFX_EGY_Radio_Free_Cairo
+		icon = GFX_goal_NYC_Establish_Broadcast
 		available = {
 			has_government = social_democrat
 		}
@@ -1574,7 +1574,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_break_free_of_tammany
-		icon = GFX_goal_NYC_Tammany
+		icon = GFX_goal_NYC_Tammany_Knife
 		available = {
 			has_government = market_liberal
 		}
@@ -1606,7 +1606,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_support_our_cops
-		icon = GFX_goal_CAL_fight_crime
+		icon = GFX_goal_NYC_Remove_Catholic_NYPD
 		available = {
 			has_government = market_liberal
 		}
@@ -1679,7 +1679,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_bulwark_against_the_left
-		icon = GFX_goal_TEX_strike_left_expansionists
+		icon = GFX_goal_NYC_Embrace_Conservatism
 		available = {
 			has_government = market_liberal
 		}
@@ -1939,7 +1939,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_war_profiteering
-		icon = GRU_CORPORATE_MILITARY_INDUSTRIAL_COMPLEX
+		icon = GFX_goal_BAN_profit_economy
 		available = {
 			has_government = market_liberal
 		}
@@ -2017,7 +2017,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NYC_purge
-		icon = GFX_NEE_fight_the_mob
+		icon = GFX_goal_NYC_Kill_Mob
 		available = {
 			has_government = authoritarian_democrat
 		}
@@ -2294,7 +2294,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_tough_on_crime
-		icon = GFX_goal_CAL_fight_crime
+		icon = GFX_goal_NYC_Shoot_Crime
 		available = {
 			has_government = authoritarian_democrat
 		}
@@ -2894,7 +2894,7 @@ focus_tree = {
 	### Mafia Coup ###
 	focus = {
 		id = NYC_mobster_takeover
-		icon = GFX_goal_NYC_gangs_of_new_york
+		icon = GFX_goal_NYC_Mafia_Rule
 		available = {
 			has_government = paternal_autocrat
 		}
@@ -3336,7 +3336,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_unify_all_new_yorker_gangs
-		icon = GFX_goal_HAI_contact
+		icon = GFX_goal_NYC_Unite_Five_Families
 		available = {
 			has_government = paternal_autocrat
 			has_country_leader = {
@@ -3454,7 +3454,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_mobster_unity
-		icon = GFX_goal_CSA_oldallies
+		icon = GFX_goal_NYC_Unity_Lansky
 		available = {
 			has_government = paternal_autocrat
 			has_country_leader = {
@@ -5501,6 +5501,7 @@ focus_tree = {
 		id = NYC_radical_internationalism
 		icon = GFX_goal_NYC_Radical_Internationalism
 		available = {
+                        has_completed_focus = NYC_black_nationalism_without_race_supremacy
 			has_government = syndicalist
             has_country_leader = {
 				name = "Hubert Harrison"
@@ -5538,6 +5539,7 @@ focus_tree = {
 		id = NYC_anti_communist_internationalism
 		icon = GFX_goal_NYC_Anti_Communist_Internationalism
 		available = {
+                        has_completed_focus = NYC_colorblind_proletariat
 			has_government = syndicalist
             has_country_leader = {
 				name = "Frank Crosswaith"
@@ -5787,7 +5789,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_funds_from_federal_reserve
-		icon = GFX_goal_gold_reserve
+		icon = GFX_goal_the_rich_get_richer
 		x = 3
 		y = 1
 		relative_position_id = NYC_city_that_never_sleeps
@@ -5834,7 +5836,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_maintain_trade_networks
-		icon = GFX_ITA_free_trade
+		icon = GFX_goal_CZE_export_work
 		x = 3
 		y = 3
 		relative_position_id = NYC_city_that_never_sleeps
@@ -6097,7 +6099,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_friends_in_high_place
-		icon = GFX_goal_COR_captains_of_industry
+		icon = GFX_CAL_rich_taxation
 		x = 2
 		y = 4
 		relative_position_id = NYC_city_that_never_sleeps
@@ -6365,7 +6367,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_auxillary_NYPD
-		icon = GFX_goal_NYC_nypd_usa_1
+		icon = GFX_CAL_federal_police
 		x = 1
 		y = 4
 		relative_position_id = NYC_city_under_seige
@@ -6637,7 +6639,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_build_up_municipal_airstrip
-		icon = GFX_goal_generic_airports
+		icon = GFX_goal_CZE_air_industry
 		x = -3
 		y = 1
 		relative_position_id = NYC_city_under_seige

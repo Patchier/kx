@@ -2984,6 +2984,78 @@ SpriteTypes = {
 		name = "GFX_goal_NYC_Unified_Christian_Front"
 		texturefile = "gfx/interface/goals/NYC_Unified_Christian_Front.png"
 	}
+	spriteType = {
+		name = "GFX_goal_NYC_Kill_Mob"
+		texturefile = "gfx/interface/goals/NYC_Kill_Mob.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Remove_Catholic_NYPD"
+		texturefile = "gfx/interface/goals/NYC_Remove_Catholic_NYPD.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Shining_Beacon"
+		texturefile = "gfx/interface/goals/NYC_Shining_Beacon.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Tammany_Broom"
+		texturefile = "gfx/interface/goals/NYC_Tammany_Broom.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Tammany_Knife"
+		texturefile = "gfx/interface/goals/NYC_Tammany_Knife.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Work_Projects"
+		texturefile = "gfx/interface/goals/NYC_Work_Projects.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Pristine_NYC"
+		texturefile = "gfx/interface/goals/NYC_Pristine_NYC.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Break_Banks"
+		texturefile = "gfx/interface/goals/NYC_Break_Banks.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Chats"
+		texturefile = "gfx/interface/goals/NYC_Chats.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Embrace_Conservatism"
+		texturefile = "gfx/interface/goals/NYC_Embrace_Conservatism.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Establish_Broadcast"
+		texturefile = "gfx/interface/goals/NYC_Establish_Broadcast.png"
+	}
+    spriteType = {
+		name = "GFX_goal_NYC_Fusion_Party"
+		texturefile = "gfx/interface/goals/NYC_Fusion_Party.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Mafia_Rule"
+		texturefile = "gfx/interface/goals/NYC_Mafia_Rule.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Police_TPose"
+		texturefile = "gfx/interface/goals/NYC_Police_TPose.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Unite_Five_Families"
+		texturefile = "gfx/interface/goals/NYC_Unite_Five_Families.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Shoot_Crime"
+		texturefile = "gfx/interface/goals/NYC_Shoot_Crime.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Unity_Lansky"
+		texturefile = "gfx/interface/goals/NYC_Unity_Lansky.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Reform_Civil"
+		texturefile = "gfx/interface/goals/NYC_Reform_Civil.png"
+	}
     spriteType = {
 		name = "GFX_goal_BBR_black_israelites"
 		texturefile = "gfx/interface/goals/BBR_black_israelites.png"
