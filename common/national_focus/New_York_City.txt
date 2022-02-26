@@ -243,7 +243,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_democratic_unity
-		icon = GFX_goal_TEX_true_democrats
+		icon = GFX_goal_NYC_Fusion_Party
 		available = {
 			has_government = social_liberal
 		}
@@ -311,7 +311,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_reform_civil_service
-		icon = GFX_NEE_expand_civil_service
+		icon = GFX_goal_NYC_Reform_Civil
 		available = {
 			has_government = social_liberal
 		}
@@ -476,7 +476,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_talk_to_the_people
-		icon = GFX_goal_CZE_war_of_words
+		icon = GFX_goal_NYC_Chats
 		available = {
 			has_government = social_liberal
 		}
@@ -658,7 +658,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_action_against_criminals
-		icon = GFX_goal_generic_crisis
+		icon = GFX_goal_NYC_Police_TPose
 		available = {
 			has_government = social_democrat
 		}
@@ -860,7 +860,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_public_broadcasts
-		icon = GFX_EGY_Radio_Free_Cairo
+		icon = GFX_goal_NYC_Establish_Broadcast
 		available = {
 			has_government = social_democrat
 		}
@@ -1679,7 +1679,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_bulwark_against_the_left
-		icon = GFX_goal_TEX_strike_left_expansionists
+		icon = GFX_goal_NYC_Embrace_Conservatism
 		available = {
 			has_government = market_liberal
 		}
@@ -2294,7 +2294,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_tough_on_crime
-		icon = GFX_goal_CAL_fight_crime
+		icon = GFX_goal_NYC_Shoot_Crime
 		available = {
 			has_government = authoritarian_democrat
 		}
@@ -2894,7 +2894,7 @@ focus_tree = {
 	### Mafia Coup ###
 	focus = {
 		id = NYC_mobster_takeover
-		icon = GFX_goal_NYC_gangs_of_new_york
+		icon = GFX_goal_NYC_Mafia_Rule
 		available = {
 			has_government = paternal_autocrat
 		}
@@ -3336,7 +3336,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_unify_all_new_yorker_gangs
-		icon = GFX_goal_HAI_contact
+		icon = GFX_goal_NYC_Unite_Five_Families
 		available = {
 			has_government = paternal_autocrat
 			has_country_leader = {
@@ -3454,7 +3454,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_mobster_unity
-		icon = GFX_goal_CSA_oldallies
+		icon = GFX_goal_NYC_Unity_Lansky
 		available = {
 			has_government = paternal_autocrat
 			has_country_leader = {
