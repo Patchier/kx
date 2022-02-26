@@ -3007,11 +3007,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_WHR_coat_of_arms_authoritarian"
-		texturefile = "gfx/interface/goals/WHR_coat_of_arms_authoritarian.png"
+		name = "GFX_goal_GFX_goal_WHR_Nacalnik_Dzyarzavy_shine"
+		texturefile = "gfx/interface/goals/WHR_Nacalnik_Dzyarzavy.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WHR_coat_of_arms_authoritarian.png"
+			animationmaskfile = "gfx/interface/goals/WHR_Nacalnik_Dzyarzavy.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3024,7 +3024,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WHR_coat_of_arms_authoritarian.png"
+			animationmaskfile = "gfx/interface/goals/WHR_Nacalnik_Dzyarzavy.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
