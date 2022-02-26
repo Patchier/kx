@@ -3092,6 +3092,14 @@ SpriteTypes = {
 		name = "GFX_goal_NYC_Working_Man"
 		texturefile = "gfx/interface/goals/NYC_Working_Man.png"
 	}
+	spriteType = {
+		name = "GFX_goal_NYC_Metro_Culture"
+		texturefile = "gfx/interface/goals/NYC_Metro_Culture.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Understand_Syndicalism"
+		texturefile = "gfx/interface/goals/NYC_Understand_Syndicalism.png"
+	}
     spriteType = {
 		name = "GFX_goal_BBR_black_israelites"
 		texturefile = "gfx/interface/goals/BBR_black_israelites.png"
