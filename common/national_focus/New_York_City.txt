@@ -5162,6 +5162,12 @@ focus_tree = {
 		icon = GFX_goal_NYC_In_Peoples_Hands
 		available = {
 			has_government = syndicalist
+                        NOT = {
+                           has_country_leader = {
+			     name = "August Claessens"
+			     ruling_only = yes
+			   } 
+                        }
 		}
 		x = 12
 		y = 16
