@@ -728,7 +728,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_anti_racism
-		icon = GFX_denounce_race_hatred
+		icon = GFX_goal_NYC_Racial_Peace
 		available = {
 			has_government = social_democrat
 		}
@@ -797,7 +797,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_power_to_the_people
-		icon = GFX_goal_generic_republic
+		icon = GFX_goal_NYC_People_Power
 		available = {
 			has_government = social_democrat
 		}
@@ -1118,7 +1118,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_deal_with_corrupt_cops
-		icon = GFX_Socialist_Law
+		icon = GFX_goal_NYC_Target_Corrupt_Cops
 		available = {
 			has_government = radical_socialist
 		}
@@ -1184,7 +1184,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_moderate_socialism
-		icon = VNC_model_of_dem_socialism
+		icon = GFX_goal_NYC_Democratic_Socialism
 		available = {
 			has_government = radical_socialist
 		}
@@ -1218,7 +1218,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_working_mans_plight
-		icon = GFX_goal_CSA_protect_working_class
+		icon = GFX_goal_NYC_Working_Man
 		available = {
 			has_government = radical_socialist
 		}
@@ -1289,7 +1289,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_communal_city
-		icon = GFX_goal_CSA_deal_with_communes
+		icon = GFX_goal_NYC_City_Communes
 		available = {
 			has_government = radical_socialist
 		}
@@ -1768,7 +1768,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_housing
-		icon = GFX_goal_generic_build_housing
+		icon = GFX_goal_NYC_Housing_Projects
 		available = {
 			has_government = market_liberal
 		}
@@ -1836,7 +1836,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_privatization
-		icon = GFX_goal_generic_privatization
+		icon = GFX_goal_NYC_Privatization
 		available = {
 			has_government = market_liberal
 		}
@@ -1939,7 +1939,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_war_profiteering
-		icon = GFX_goal_BAN_profit_economy
+		icon = GFX_goal_NYC_War_Profiteering
 		available = {
 			has_government = market_liberal
 		}

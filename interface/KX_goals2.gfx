@@ -3056,6 +3056,42 @@ SpriteTypes = {
 		name = "GFX_goal_NYC_Reform_Civil"
 		texturefile = "gfx/interface/goals/NYC_Reform_Civil.png"
 	}
+	spriteType = {
+		name = "GFX_goal_NYC_City_Communes"
+		texturefile = "gfx/interface/goals/NYC_City_Communes.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Democratic_Socialism"
+		texturefile = "gfx/interface/goals/NYC_Democratic_Socialism.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Housing_Projects"
+		texturefile = "gfx/interface/goals/NYC_Housing_Projects.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_People_Power"
+		texturefile = "gfx/interface/goals/NYC_People_Power.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Privatization"
+		texturefile = "gfx/interface/goals/NYC_Privatization.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Racial_Peace"
+		texturefile = "gfx/interface/goals/NYC_Racial_Peace.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Target_Corrupt_Cops"
+		texturefile = "gfx/interface/goals/NYC_Target_Corrupt_Cops.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_War_Profiteering"
+		texturefile = "gfx/interface/goals/NYC_War_Profiteering.png"
+	}
+	spriteType = {
+		name = "GFX_goal_NYC_Working_Man"
+		texturefile = "gfx/interface/goals/NYC_Working_Man.png"
+	}
     spriteType = {
 		name = "GFX_goal_BBR_black_israelites"
 		texturefile = "gfx/interface/goals/BBR_black_israelites.png"
