@@ -6367,7 +6367,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_auxillary_NYPD
-		icon = GFX_goal_NYC_nypd_usa_1
+		icon = GFX_CAL_federal_police
 		x = 1
 		y = 4
 		relative_position_id = NYC_city_under_seige
@@ -6639,7 +6639,7 @@ focus_tree = {
 	
 	focus = {
 		id = NYC_build_up_municipal_airstrip
-		icon = GFX_goal_generic_airports
+		icon = GFX_goal_CZE_air_industry
 		x = -3
 		y = 1
 		relative_position_id = NYC_city_under_seige
