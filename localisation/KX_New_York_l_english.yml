@@ -204,10 +204,10 @@ NYC_join_ent:0 "Join the Entente"
 NYC_join_rp:0 "Join the Reichspakt"
 NYC_join_int:0 "Join the Internationale"
 
-NYC_Take_Hispanola:0 "Attack Hispaniola"
-NYC_Take_Cuba:0 "Attack Cuba"
-NYC_Attack_PRI:0 "Attack Puetro Rico"
-NYC_Attack_West_Indies:0 "Attack the West Indies"
+NYC_Take_Hispanola:0 "Emancipate Hispaniola's Haitians and Black Dominicans"
+NYC_Take_Cuba:0 "Save the Afro-Cubans"
+NYC_Attack_PRI:0 "Free the Black Puetro Ricans and the Virgin Islanders"
+NYC_Attack_West_Indies:0 "Liberate the Afro-Caribbeans of the West Indies"
 
 NYC_Non_Commie_Internationale_decisions:0 "The Anti-Communist Internationale"
 
