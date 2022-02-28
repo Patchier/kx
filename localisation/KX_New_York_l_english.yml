@@ -1361,14 +1361,14 @@ NYC_flavor.3333.d:0 "Despite our best efforts, the riots in Harlem have begun to
 NYC_flavor.3333.a:0 "We don’t negotiate with rioters! Send in every man we got."
 NYC_flavor.3333.b:0 "Appease the rioters and negotiate with their leaders to stop the madness."
 
-#:0 "Harlem Riots Subside"
-#:0 "Finally, after it would seem the entire City would be consumed in its carnage, the Harlem Race Riots have subsided. Though dozens lie dead and many hundreds more are wounded, peace has finally washed over these blood-stained streets. Curfew has been established and the NYPD has upped the patrols of the local 28th and 32nd Precincts to keep the peace until normalcy can be once again achieved. Though there is much to rebuild, from new storefronts to entire city-blocks, we have far more work to do on our social situation to prevent something like this from ever happening again, one way or another."
-#:0 "Now, to rebuild and move on."
+NYC_flavor.3340.t:0 "Harlem Riots Subside"
+NYC_flavor.3340.d:0 "Finally, after it would seem the entire City would be consumed in its carnage, the Harlem Race Riots have subsided. Though dozens lie dead and many hundreds more are wounded, peace has finally washed over these blood-stained streets. Curfew has been established and the NYPD has upped the patrols of the local 28th and 32nd Precincts to keep the peace until normalcy can be once again achieved. Though there is much to rebuild, from new storefronts to entire city-blocks, we have far more work to do on our social situation to prevent something like this from ever happening again, one way or another."
+NYC_flavor.3340.a:0 "Now, to rebuild and move on."
 
-#:0 "On the Status of the New York Color-Bar"
-#:0 "With the Harlem Race Riots in such recent and vivid memory for all, the status of New York City’s rigid color-bar has once again been questioned. Just like the rest of America, segregation has been a part of everyday reality for decades, but now with such violence rising in response to these laws, many have called for this social separation to end. With the damages and deaths wrought during the Harlem catastrophe so fresh in our minds, perhaps it is time to end these archaic laws, or should we steel ourselves, clinging to the accepted truths and systems we have lived by for ages."
-#:0 "The Color-Bar stands. Segregation now, segregation tomorrow, segregation forever!"
-#:0 "The Color-Bar shall be removed. Let the races of the Big Apple be free!"
+NYC_flavor.3341.t:0 "On the Status of the New York Color-Bar"
+NYC_flavor.3341.d:0 "With the Harlem Race Riots in such recent and vivid memory for all, the status of New York City’s rigid color-bar has once again been questioned. Just like the rest of America, segregation has been a part of everyday reality for decades, but now with such violence rising in response to these laws, many have called for this social separation to end. With the damages and deaths wrought during the Harlem catastrophe so fresh in our minds, perhaps it is time to end these archaic laws, or should we steel ourselves, clinging to the accepted truths and systems we have lived by for ages."
+NYC_flavor.3341.a:0 "The Color-Bar stands. Segregation now, segregation tomorrow, segregation forever!"
+NYC_flavor.3341.b:0 "The Color-Bar shall be removed. Let the races of the Big Apple be free!"
 
 NYC_flavor.3334.t:0 "The Great Race Riot of [getyear]"
 NYC_flavor.3334.d:0 "As if the situation couldn’t get bad enough, the riots that started in Harlem just days ago have devolved into absolute pandemonium as racial violence and crime spreads across the Five Boroughs. No longer confined to just Upper Manhattan, now all of the Bronx, Brooklyn, Queens, and even Staten Island have succumbed to the chaos. Radicals and extremists have taken the opportunity to capitalize on this vacuum of order with Socialist, Nationalist, and religious radicals running rampant across the City as organized crime and general banditry skyrocket. It would seem that the City that Never Sleeps is now destined to forever burn as well. Let us hope that this does not last long, or that someone can rise to save us from this madness."
@@ -1393,6 +1393,10 @@ NYC_flavor.3338.d:0 "The independent state of New York, centered around the Free
 NYC_flavor.3338.a:0 "We join our new allies with open arms."
 NYC_flavor.3338.b:0 "We have no need or desire to join this rabble."
 
+NYC_flavor.3339.t:0 "New York Invites Us to Their Faction"
+NYC_flavor.3339.d:0 "The independent state of New York, centered around the Free City of New York, has recently had a soft Syndicalist revolution, and now after stabilizing their nation, they have invited us to their new political and military alliance. Though there may be some distance between our two states, we share common goals and desires. What say we?"
+NYC_flavor.3339.a:0 "We join our new allies with open arms."
+NYC_flavor.3339.b:0 "We have no need or desire to join this rabble."
 
 NYC_flavor.20.t:0 "On the Status of Independent Sports Leagues"
 NYC_flavor.20.d:0 "With our decision to remain separate from the new America, the question about what to do with our sports leagues has now arisen. Before the Collapse, teams from across America competed against each other after being divided into regional conferences, but the Second American Civil War brought that all to an end. However, with the return of normalcy and peace, perhaps now it is time to reunify the leagues. Though our borders and nations would of course stay separate, we could allow our teams to compete against the teams of the new America like they once did so frequently, bringing joy to all Americans regardless of borders. However, diehard New York patriots oppose this idea, feeling that it would cheapen our newly cemented identity as an independent state. What should we decide?"

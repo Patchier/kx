@@ -4647,6 +4647,9 @@ country_event = { # Riots Spiral (For Hubert/Crosswaith)
 	option = { # Appease Rioters
 		NYC_flavor.3333.b
 		add_political_power = 5
+                country_event = {
+                          id = NYC_flavor.3340
+                          days = 2
 	}
 }
 country_event = { #New York for the People (For Hubert/Crosswaith)
@@ -4828,7 +4831,49 @@ country_event = { #Asking countries to join ACI
 	}
 	
 }
+country_event = { # Race Riots stopped
+	id = NYC_flavor.3340
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.3340"}
+	title = NYC_flavor.3340.t
+	desc = NYC_flavor.3340.d
+	picture = GFX_report_event_NYC_baseball
 
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # Flavour
+		name = NYC_flavor.3340.a
+		add_stability = 0.10
+		add_political_power = 50
+			country_event = {
+				id = NYC_flavor.3341
+				days = 25
+			}
+	}
+}
+country_event = { # Segregation Question
+	id = NYC_flavor.3341
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.3341"}
+	title = NYC_flavor.3341.t
+	desc = NYC_flavor.3341.d
+	picture = GFX_report_event_NYC_baseball
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # Yes
+		name = NYC_flavor.3341.a
+		add_stability = -0.10
+	}
+	
+	option = { # No
+		name = NYC_flavor.3341.b
+		add_stability = 0.05
+		add_political_power = 50		
+	}
+}
 country_event = { # Sports and Stuff
 	id = NYC_flavor.20
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.20"}
@@ -5254,6 +5299,10 @@ country_event = { # Blood on the Harlem Streets
 		name = NYC_flavor.38.a
 		add_stability = -0.02
 		add_political_power = -50
+                country_event = {
+			id = NYC_flavor.3333
+			days = 20
+		}
 	}
 	
 	option = { # Flavour
@@ -5265,10 +5314,6 @@ country_event = { # Blood on the Harlem Streets
 		name = NYC_flavor.38.c
 		add_stability = -0.08
 		add_political_power = 10
-                country_event = {
-			id = NYC_flavor.3333
-			days = 20
-		}
 	}
 }
 
