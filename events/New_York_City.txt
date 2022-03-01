@@ -878,54 +878,6 @@ country_event = { #Mafia Takeover
 			limit = { has_trait = NYC_police_officer }
 			retire = yes
 		}
-		create_corps_commander = {
-			name = "Albert Anastasia"
-			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Albert_Anastasia.png"
-			traits = {
-				NYC_mobster
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		create_corps_commander = {
-			name = "Joe Profaci"
-			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joe_Profaci.png"
-			traits = {
-				NYC_mobster
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		create_corps_commander = {
-			name = "Louis Buchalter"
-			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Louis_Buchalter.png"
-			traits = {
-				NYC_mobster
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		create_corps_commander = {
-			name = "Harry Strauss"
-			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Harry_Strauss.png"
-			traits = {
-				NYC_mobster
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
 		hidden_effect = {
 			if = {
 				limit = {
@@ -1074,6 +1026,54 @@ country_event = {  #Flavour
 			logistics_skill = 1
 			id = 15410
 		}
+		create_corps_commander = {
+			name = "Joe Profaci"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joe_Profaci.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Frank Costello"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Frank_Costello.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Tommy Gagliano"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Tommy_Gagliano.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Vincent Mangano"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Vincent_Mangano.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 	}
 	
 	option = { #Meyer Lansky
@@ -1102,6 +1102,54 @@ country_event = {  #Flavour
 			planning_skill = 1
 			logistics_skill = 1
 			id = 15411
+		}
+		create_corps_commander = {
+			name = "Joe Profaci"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joe_Profaci.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Frank Costello"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Frank_Costello.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Harry Strauss"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Harry_Strauss.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Abe Reles"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Abe_Reles.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 		remove_ideas = NYC_Meyer_Lansky_hog_pau
 		add_ideas = NYC_Lucky_Luciano_hog_pau
@@ -1133,6 +1181,54 @@ country_event = {  #Flavour
 			planning_skill = 1
 			logistics_skill = 1
 			id = 15412
+		}
+		create_corps_commander = {
+			name = "Albert Anastasia"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Albert_Anastasia.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Louis Buchalter"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Louis_Buchalter.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Harry Strauss"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Harry_Strauss.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Abe Reles"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Abe_Reles.png"
+			traits = {
+				NYC_mobster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 }
@@ -4033,6 +4129,40 @@ country_event = { # Harlem Coup
 			planning_skill = 1
 			logistics_skill = 2
 		}
+		create_corps_commander = {
+			name = "Finlay Hoskins"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Finlay_Hoskins.png"
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Mayme Hatcher Johnson"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Mayme_Hatcher_Johnson.png"
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Dillard Morrison"
+			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Dillard_Morrison.png"
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
         set_party_name = {
 			name = NYC_holstein_totalist_party
 			long_name = NYC_holstein_totalist_party_long
@@ -4517,6 +4647,9 @@ country_event = { # Riots Spiral (For Hubert/Crosswaith)
 	option = { # Appease Rioters
 		NYC_flavor.3333.b
 		add_political_power = 5
+                country_event = {
+                          id = NYC_flavor.3340
+                          days = 2
 	}
 }
 country_event = { #New York for the People (For Hubert/Crosswaith)
@@ -4698,7 +4831,49 @@ country_event = { #Asking countries to join ACI
 	}
 	
 }
+country_event = { # Race Riots stopped
+	id = NYC_flavor.3340
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.3340"}
+	title = NYC_flavor.3340.t
+	desc = NYC_flavor.3340.d
+	picture = GFX_report_event_NYC_baseball
 
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # Flavour
+		name = NYC_flavor.3340.a
+		add_stability = 0.10
+		add_political_power = 50
+			country_event = {
+				id = NYC_flavor.3341
+				days = 25
+			}
+	}
+}
+country_event = { # Segregation Question
+	id = NYC_flavor.3341
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.3341"}
+	title = NYC_flavor.3341.t
+	desc = NYC_flavor.3341.d
+	picture = GFX_report_event_NYC_baseball
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # Yes
+		name = NYC_flavor.3341.a
+		add_stability = -0.10
+	}
+	
+	option = { # No
+		name = NYC_flavor.3341.b
+		add_stability = 0.05
+		add_political_power = 50		
+	}
+}
 country_event = { # Sports and Stuff
 	id = NYC_flavor.20
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.20"}
@@ -5124,6 +5299,10 @@ country_event = { # Blood on the Harlem Streets
 		name = NYC_flavor.38.a
 		add_stability = -0.02
 		add_political_power = -50
+                country_event = {
+			id = NYC_flavor.3333
+			days = 20
+		}
 	}
 	
 	option = { # Flavour
@@ -5135,10 +5314,6 @@ country_event = { # Blood on the Harlem Streets
 		name = NYC_flavor.38.c
 		add_stability = -0.08
 		add_political_power = 10
-                country_event = {
-			id = NYC_flavor.3333
-			days = 20
-		}
 	}
 }
 
@@ -5846,6 +6021,262 @@ country_event = { # United Hebrew Trades Union
                 add_stability = 0.01
 	}	
 }
+
+country_event = { # CSA peace chain
+	id = NYC_flavor.69
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.69.t
+	desc = NYC_flavor.69.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	trigger = {
+		tag = CSA
+		has_global_flag = USA_civil_war_over_flag
+		NYC = {
+			exists = yes
+			has_socialist_government = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = { # Flavour
+		name = NYC_flavor.69.a
+		NYC = {
+			country_event = {
+				id = NYC_flavor.70
+				days = 3
+			}
+		}
+               
+	}	
+	option = { # Flavour
+		name = NYC_flavor.69.b
+		add_political_power = -25
+               
+	}	
+}
+
+country_event = { # CSA wants us to fucking die
+	id = NYC_flavor.70
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.70.t
+	desc = NYC_flavor.70.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # k
+		name = NYC_flavor.70.a
+		CSA = {
+			annex_country = {
+				target = NYC
+				transfer_troops = yes
+			}
+			change_tag_from = NYC
+		}
+               
+	}	
+	option = { # no U
+		name = NYC_flavor.70.b
+		CSA = {
+			country_event = {
+				id = NYC_flavor.71
+				days = 3
+			}
+		}
+               
+	}	
+}
+
+country_event = { # CSA gets nyc's refusal
+	id = NYC_flavor.71
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.71.t
+	desc = NYC_flavor.71.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # fine fine
+		name = NYC_flavor.71.a
+		NYC = {
+			country_event = {
+				id = NYC_flavor.73
+				days = 3
+			}
+		}
+               
+	}	
+	option = { # BITCH ASS PREPARE TO DIE
+		name = NYC_flavor.71.b
+		NYC = {
+			country_event = {
+				id = NYC_flavor.72
+				days = 3
+			}
+		}
+               
+	}	
+}
+
+country_event = { # CSA declares war
+	id = NYC_flavor.72
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.72.t
+	desc = NYC_flavor.72.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # zamn
+		name = NYC_flavor.72.a
+		CSA = {
+			declare_war_on = {
+				target = NYC
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
+			NYC = {
+			country_event = {
+				id = NYC_flavor.74
+				days = 360
+			}
+		}
+		}
+               
+	}	
+}
+
+country_event = { # CSA is bitchass
+	id = NYC_flavor.73
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.73.t
+	desc = NYC_flavor.73.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # zamn
+		name = NYC_flavor.73.a
+		add_political_power = 20
+	
+               
+	}	
+}
+
+country_event = { # peace with CSA?
+	id = NYC_flavor.74
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.74.t
+	desc = NYC_flavor.74.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # k
+		name = NYC_flavor.74.a
+		CSA = {
+			country_event = {
+				id = NYC_flavor.75
+				days = 3
+			}
+		}      
+	}	
+
+	option = { # no
+		name = NYC_flavor.74.b
+		add_war_support = 0.1
+               
+	}	
+}
+
+country_event = { # peace with nyc?
+	id = NYC_flavor.75
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.75.t
+	desc = NYC_flavor.75.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # sure
+		name = NYC_flavor.75.a
+		CSA = {
+			country_event = {
+				id = NYC_flavor.76
+				days = 3
+			}
+		}      
+	}	
+
+	option = { # no
+		name = NYC_flavor.75.b
+		trigger = {
+			is_ai = no
+		}
+		CSA = {
+			country_event = {
+				id = NYC_flavor.77
+				days = 3
+			}
+		}   
+               
+	}	
+}
+
+country_event = { # CSA peace
+	id = NYC_flavor.76
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.76.t
+	desc = NYC_flavor.76.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # zamn
+		name = NYC_flavor.76.a
+	white_peace = CSA
+	
+               
+	}	
+}
+
+country_event = { # CSA peace
+	id = NYC_flavor.77
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.68"}
+	title = NYC_flavor.77.t
+	desc = NYC_flavor.77.d
+	picture = GFX_report_event_KIV_get_yer_guns
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # zamn
+		name = NYC_flavor.77.a
+	add_political_power = 50
+	
+               
+	}	
+}
+
+
 
 country_event = { # dutch prevention
 	id = NYC_flavor.6970
