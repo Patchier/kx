@@ -4636,20 +4636,23 @@ country_event = { # Riots Spiral (For Hubert/Crosswaith)
 		name = NYC_flavor.3333.a
 		add_stability = -0.02
 		add_political_power = -10
-              hidden_effect = {
-                country_event = {
-			id = NYC_flavor.3334
-			days = 20
-		        }
-              }
+		hidden_effect = {
+			country_event = {
+				id = NYC_flavor.3334
+				days = 20
+			}
+		}
 	}
 	
 	option = { # Appease Rioters
 		NYC_flavor.3333.b
 		add_political_power = 5
-                country_event = {
-                          id = NYC_flavor.3340
-                          days = 2
+		hidden_effect = {
+			country_event = {
+				id = NYC_flavor.3340
+				days = 2
+			}
+		}
 	}
 }
 country_event = { #New York for the People (For Hubert/Crosswaith)
@@ -4667,12 +4670,12 @@ country_event = { #New York for the People (For Hubert/Crosswaith)
 		name = NYC_flavor.3334.a
 		add_stability = -0.02
 		add_political_power = -10
-              hidden_effect = {
-                country_event = {
-			id = NYC_flavor.3335
-			days = 20
-		        }
-              }
+		hidden_effect = {
+			country_event = {
+				id = NYC_flavor.3335
+				days = 20
+			}
+		}
 	}
 }
 country_event = { #Hubert Harrison(For Hubert/Crosswaith)
