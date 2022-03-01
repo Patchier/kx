@@ -4093,6 +4093,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NYC_christian_front_takes_command"
 			custom_effect_tooltip = NYC_jesus_people_coup_tt
 			add_ideas = NYC_christian_front_takes_command
+			country_event = {
+				id = NYC_flavor.261
+				days = 12
+			}
 		}
 	}
 	

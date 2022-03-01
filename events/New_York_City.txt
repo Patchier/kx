@@ -5018,10 +5018,19 @@ country_event = { # Fate of the Christian Front
 	
 	option = { # Flavour
 		name = NYC_flavor.26.b
+		trigger = {
+			has_government = social_conservative
+		}
 		increase_ruling_party_popularity_by_5 = yes
 		add_popularity = {
 			ideology = national_populist
 			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = NYC_flavor.260
+				days = 43
+			}
 		}
 	}
 	
@@ -5041,6 +5050,114 @@ country_event = { # Fate of the Christian Front
 		}
 		add_manpower = 100
 		add_political_power = 10
+	}
+}
+
+country_event = { # CF Organizes
+	id = NYC_flavor.260
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.260"}
+	title = NYC_flavor.260.t
+	desc = NYC_flavor.260.d
+	picture = GFX_event_TEX_coughlin_speech
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # Flavour
+		name = NYC_flavor.260.a
+		add_political_power = 10
+		add_popularity = {
+			ideology = national_populist
+			popularity = -0.1
+		}
+	}
+	
+	option = { # Flavour
+		name = NYC_flavor.260.b
+		add_popularity = {
+			ideology = national_populist
+			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = NYC_flavor.261
+				days = 43
+			}
+		}
+	}
+}
+
+country_event = { # CF Seizes Control
+	id = NYC_flavor.261
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.261"}
+	title = NYC_flavor.261.t
+	desc = NYC_flavor.261.d
+	picture = GFX_event_TEX_coughlin_speech
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # Flavour
+		name = NYC_flavor.261.a
+		add_political_power = 10
+		add_popularity = {
+			ideology = national_populist
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = national_populist
+			elections_allowed = no
+		}
+	}
+}
+
+country_event = { # CF Leadership
+	id = NYC_flavor.261
+	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.261"}
+	title = NYC_flavor.261.t
+	desc = NYC_flavor.261.d
+	picture = GFX_event_TEX_coughlin_speech
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = { # McWilliams
+		name = NYC_flavor.261.a
+		create_country_leader = {
+			name = "Joe McWilliams"
+			desc = "POLITICS_MCWILLIAMS_DESC"
+			picture = "gfx/leaders/NYC/Portrait_NYC_Joe_McWilliams.png"
+			expire = "1965.1.1"
+			ideology = fundementalism_subtype
+			traits = {}
+		}
+	}
+	
+	option = { # Molloy
+		name = NYC_flavor.261.b
+		create_country_leader = {
+			name = "Thomas Edmund Molloy"
+			desc = "POLITICS_MOLLOY_DESC"
+			picture = "gfx/leaders/NYC/Portrait_NYC_Thomas_Edmund_Molloy.png"
+			expire = "1965.1.1"
+			ideology = fundementalism_subtype
+			traits = {}
+		}
+	}
+	
+	option = { # Pope
+		name = NYC_flavor.261.c
+		create_country_leader = {
+			name = "Generoso Pope"
+			desc = "POLITICS_GENEROSO_POPE_DESC"
+			picture = "gfx/leaders/NYC/Portrait_NYC_Generoso_Pope.png"
+			expire = "1965.1.1"
+			ideology = fundementalism_subtype
+			traits = {}
+		}
 	}
 }
 
@@ -5923,7 +6040,7 @@ country_event = { # become NY
 
 	option = { # Flavour
 		name = NYC_flavor.63.a
-                set_cosmetic_tag = NYC_UNIFIED
+        set_cosmetic_tag = NYC_UNIFIED
 	}	
 }
 
@@ -5940,18 +6057,18 @@ country_event = { # FDR
 
 	option = { # Flavour
 		name = NYC_flavor.64.a
-                add_manpower = 1
+		add_manpower = 1
 	}
 
-        option = { # Flavour
+	option = { # Flavour
 		name = NYC_flavor.64.b
-                trigger = {
+		trigger = {
 		    has_country_leader = {
 		       name = "John Steinbeck"
 		       ruling_only = yes
 		    }
 		}
-                add_popularity = { ideology = totalist popularity = 0.02 }
+		add_popularity = { ideology = totalist popularity = 0.02 }
 	}	
 }
 
@@ -5984,7 +6101,7 @@ country_event = { # New Look for Lady Liberty
 
 	option = { # Flavour
 		name = NYC_flavor.66.a
-                add_political_power = 50
+		add_political_power = 50
 	}	
 }
 
@@ -6001,7 +6118,7 @@ country_event = { # Assemblymen Pardon
 
 	option = { # Flavour
 		name = NYC_flavor.67.a
-                increase_ruling_party_popularity_by_2 = yes
+		increase_ruling_party_popularity_by_2 = yes
 	}	
 }
 
@@ -6018,7 +6135,7 @@ country_event = { # United Hebrew Trades Union
 
 	option = { # Flavour
 		name = NYC_flavor.68.a
-                add_stability = 0.01
+		add_stability = 0.01
 	}	
 }
 
@@ -6145,13 +6262,12 @@ country_event = { # CSA declares war
 		}
 		hidden_effect = {
 			NYC = {
-			country_event = {
-				id = NYC_flavor.74
-				days = 360
+				country_event = {
+					id = NYC_flavor.74
+					days = 360
+				}
 			}
 		}
-		}
-               
 	}	
 }
 
