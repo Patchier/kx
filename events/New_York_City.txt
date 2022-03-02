@@ -5202,10 +5202,10 @@ country_event = { # CF Seizes Control
 }
 
 country_event = { # CF Leadership
-	id = NYC_flavor.261
+	id = NYC_flavor.262
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.261"}
-	title = NYC_flavor.261.t
-	desc = NYC_flavor.261.d
+	title = NYC_flavor.262.t
+	desc = NYC_flavor.262.d
 	picture = GFX_event_TEX_coughlin_speech
 
 	is_triggered_only = yes
@@ -5213,7 +5213,7 @@ country_event = { # CF Leadership
 	fire_only_once = yes
 
 	option = { # McWilliams
-		name = NYC_flavor.261.a
+		name = NYC_flavor.262.a
 		create_country_leader = {
 			name = "Joe McWilliams"
 			desc = "POLITICS_MCWILLIAMS_DESC"
@@ -5225,7 +5225,7 @@ country_event = { # CF Leadership
 	}
 	
 	option = { # Molloy
-		name = NYC_flavor.261.b
+		name = NYC_flavor.262.b
 		create_country_leader = {
 			name = "Thomas Edmund Molloy"
 			desc = "POLITICS_MOLLOY_DESC"
@@ -5237,7 +5237,7 @@ country_event = { # CF Leadership
 	}
 	
 	option = { # Pope
-		name = NYC_flavor.261.c
+		name = NYC_flavor.262.c
 		create_country_leader = {
 			name = "Generoso Pope"
 			desc = "POLITICS_GENEROSO_POPE_DESC"
