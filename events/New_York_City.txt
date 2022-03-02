@@ -201,6 +201,9 @@ news_event = { #Battle
 	trigger = {
 		tag = NYC
 		has_government = national_populist
+		NOT = {
+			has_country_flag = NYC_anti_anti_airline_food_flag
+		}
 		is_subject = no
 	}
 	
@@ -547,6 +550,65 @@ country_event = { #sexy oraange NEE or nah
 	option = { # yes
 		name = newyork_prewar.10.b
 		set_cosmetic_tag = NYC_NEE
+		hidden_effect = {
+			country_event = {
+				id = newengland.2009
+				days = 15
+			}
+		}
+		
+	}
+}
+
+country_event = { #sexy oraange NEE or nah 
+	id = newyork_prewar.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: newyork_prewar.8"}
+	title = newyork_prewar.10.t
+	desc = newyork_prewar.10.d
+	picture = GFX_ACW_american_brigade
+
+	trigger = {
+		tag = NYC
+		owns_state = 357
+		owns_state = 934
+		owns_state = 933
+		owns_state = 932
+		owns_state = 935
+		owns_state = 931
+		owns_state = 796
+		owns_state = 359
+		NOT = {
+			has_cosmetic_tag = NYC_NEE
+			has_country_flag = NYC_can_invade_america
+		}
+	}
+	fire_only_once = yes
+
+	option = { # yes
+		name = newyork_prewar.10.a
+		add_political_power = 50
+		
+	}
+	option = { # yes
+		name = newyork_prewar.10.b
+		set_cosmetic_tag = NYC_NEE
+		every_state = {
+			limit = {
+				OR = {
+					state = 357 #Maine
+					state = 934 #New Hampshire
+					state = 933 #Vermont
+					state = 932 #Massachusetts
+					state = 935 #Rhode Island
+					state = 931 #Connecticut
+					state = 796 #Upstate New York
+					state = 359 #New Jersey
+				}
+			}
+			NYC = {
+				add_state_core = PREV
+			}
+		}
 		hidden_effect = {
 			country_event = {
 				id = newengland.2009
@@ -5109,6 +5171,7 @@ country_event = { # CF Seizes Control
 	option = { # Flavour
 		name = NYC_flavor.261.a
 		add_political_power = 10
+		set_country_flag = NYC_anti_anti_airline_food_flag
 		add_popularity = {
 			ideology = national_populist
 			popularity = 0.1
