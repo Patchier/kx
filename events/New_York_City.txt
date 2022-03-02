@@ -588,6 +588,23 @@ country_event = { #sexy oraange NEE or nah
 	option = { # yes
 		name = newyork_prewar.10.a
 		add_political_power = 50
+		every_state = {
+			limit = {
+				OR = {
+					state = 357 #Maine
+					state = 934 #New Hampshire
+					state = 933 #Vermont
+					state = 932 #Massachusetts
+					state = 935 #Rhode Island
+					state = 931 #Connecticut
+					state = 796 #Upstate New York
+					state = 359 #New Jersey
+				}
+			}
+			NYC = {
+				add_state_core = PREV
+			}
+		}
 		
 	}
 	option = { # yes
