@@ -144,7 +144,7 @@ ideas = {
 			available = {
 				has_government = totalist
 			}
-			picture = True_Democratic
+			picture = NYC_clean_up
 			modifier = {
 				stability_factor = 0.05
 				industrial_capacity_factory = 0.10
@@ -156,7 +156,7 @@ ideas = {
 			available = {
 				has_government = totalist
 			}
-			picture = coop_clubs
+			picture = NYC_red_deal
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				industrial_capacity_factory = 0.05
@@ -169,7 +169,7 @@ ideas = {
 			available = {
 				has_government = totalist
 			}
-			picture = coop_clubs
+			picture = NYC_red_deal
 			name = NYC_red_deal
 			modifier = {
 				production_factory_max_efficiency_factor = 0.10
@@ -185,7 +185,7 @@ ideas = {
 			available = {
 				has_government = totalist
 			}
-			picture = new_liberalism
+			picture = NYC_max_miracle
 			modifier = {
 				production_factory_max_efficiency_factor = 0.10
 				industrial_capacity_factory = 0.10
@@ -203,7 +203,7 @@ ideas = {
 			available = {
 				has_government = totalist
 			}
-			picture = True_Democratic
+			picture = NYC_supreme_union
 			modifier = {
 				political_power_gain = 0.05
 				stability_factor = 0.05
@@ -217,7 +217,7 @@ ideas = {
 			available = {
 				has_government = totalist
 			}
-			picture = True_Democratic
+			picture = NYC_supreme_union
 			modifier = {
 				political_power_gain = 0.05
 				stability_factor = 0.05
@@ -237,7 +237,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 			}
-			picture = generic_build_infrastructure
+			picture = NYC_london_overture
 		}
 		
 		NYC_internationale_benefactors = {
@@ -249,7 +249,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.01
 				stability_factor = 0.05
 			}
-			picture = worker_guarantees
+			picture = BBR_internationale_help
 		}
 		
 		NYC_enforce_civil_rights = {
@@ -264,7 +264,7 @@ ideas = {
 				supply_consumption_factor = -0.05
 				research_speed_factor = 0.05
 			}
-			picture = BBR_workers_aid
+			picture = BBR_socialist_civic_identity
 		}
 		
 		NYC_new_man_new_york = {
@@ -272,7 +272,7 @@ ideas = {
 			available = {
 				has_government = totalist
 			}
-			picture = radio_propaganda
+			picture = NYC_new_man
 			modifier = {
 				army_attack_factor = 0.05
 				army_morale_factor = 0.1
@@ -1597,7 +1597,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_christian_front_takes_command"}
 			allowed = { always = no }
 			removal_cost = -1
-			picture = mob_activity
+			picture = NYC_christian_front
 			modifier = {
 				land_doctrine_cost_factor = -0.02
 				command_power_gain = 0.02
@@ -1608,7 +1608,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_salt_light"}
 			allowed = { always = no }
 			removal_cost = -1
-			picture = mob_activity
+			picture = NYC_salt_light
 			modifier = {
 				land_doctrine_cost_factor = -0.05
 				command_power_gain = 0.02
@@ -1620,7 +1620,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_city_that_never_sinss"}
 			allowed = { always = no }
 			removal_cost = -1
-			picture = mob_activity
+			picture = NYC_city_never_sins
 			modifier = {
 				land_doctrine_cost_factor = -0.05
 				command_power_gain = 0.02
@@ -1635,7 +1635,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_shining_city_upon_hill"}
 			allowed = { always = no }
 			removal_cost = -1
-			picture = mob_activity
+			picture = NYC_city_never_sins
 			modifier = {
 				land_doctrine_cost_factor = -0.05
 				command_power_gain = 0.02
@@ -1653,7 +1653,7 @@ ideas = {
 		
 		NYC_mcwilliams = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_mcwilliams"}
-			picture = NYC_bugsy
+			picture = NYC_mcwilliams
 			modifier = {
 				weekly_manpower = -50
 				production_speed_buildings_factor = 0.05
@@ -1662,7 +1662,7 @@ ideas = {
 		
 		NYC_purification_in_name_lord = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_purification_in_name_lord"}
-			picture = NYC_bugsy
+			picture = NYC_mcwilliams
 			modifier = {
 				weekly_manpower = -60
 				MONTHLY_POPULATION = -0.05
@@ -1675,7 +1675,7 @@ ideas = {
 		
 		NYC_protestant_big_apple = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_protestant_big_apple"}
-			picture = NYC_bugsy
+			picture = NYC_mcwilliams
 			modifier = {
 				weekly_manpower = -60
 				MONTHLY_POPULATION = -0.05
@@ -1690,7 +1690,7 @@ ideas = {
 		
 		NYC_preach_prosperity_gospel = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_preach_prosperity_gospel"}
-			picture = generic_production_bonus
+			picture = NYC_prosperity_gospel
 			modifier = {
 				consumer_goods_factor = -0.05
 				production_factory_start_efficiency_factor = 0.10
@@ -1704,7 +1704,7 @@ ideas = {
 		## Molloy Ideas ##
 		NYC_molloy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_molloy"}
-			picture = NYC_lansky
+			picture = NYC_molloy
 			modifier = {
 				consumer_goods_factor = -0.02
 				line_change_production_efficiency_factor = 0.02
@@ -1713,7 +1713,7 @@ ideas = {
 		
 		NYC_one_city_under_one_god = {#
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NYC_one_city_under_one_god"}
-			picture = NYC_lansky
+			picture = NYC_molloy
 			modifier = {
 				political_power_gain = 0.05
 				local_resources_factor = 0.03
@@ -1727,7 +1727,7 @@ ideas = {
 		## Pope Ideas ##
 		NYC_pope = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_pope"}
-			picture = CZE_revolution_idea
+			picture = NYC_pope
 			removal_cost = -1
 			modifier = {
 				war_support_weekly = 0.005
@@ -1738,7 +1738,7 @@ ideas = {
 		
 		NYC_legionnairism_fit_big_apple = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_legionnairism_fit_big_apple"}
-			picture = CZE_revolution_idea
+			picture = NYC_pope
 			removal_cost = -1
 			modifier = {
 				war_support_weekly = 0.005
@@ -1751,7 +1751,7 @@ ideas = {
 		
 		NYC_catholic_new_york = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_catholic_new_york"}
-			picture = CZE_revolution_idea
+			picture = NYC_pope
 			removal_cost = -1
 			modifier = {
 				war_support_weekly = 0.005
@@ -1766,7 +1766,7 @@ ideas = {
 		
 		NYC_catholic_distributism_for_needy = { 
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NYC_catholic_distributism_for_needy"}
-			picture = generic_army_war_college
+			picture = NYC_distributism
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.05
 				production_factory_max_efficiency_factor = 0.05
