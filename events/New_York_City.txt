@@ -5099,7 +5099,7 @@ country_event = { # Fate of the Christian Front
 		hidden_effect = {
 			country_event = {
 				id = NYC_flavor.260
-				days = 43
+				days = 20
 			}
 		}
 	}
@@ -5152,7 +5152,7 @@ country_event = { # CF Organizes
 		hidden_effect = {
 			country_event = {
 				id = NYC_flavor.261
-				days = 43
+				days = 15
 			}
 		}
 	}

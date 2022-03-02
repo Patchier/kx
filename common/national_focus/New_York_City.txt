@@ -4303,6 +4303,12 @@ focus_tree = {
 		prerequisite = {
 			focus = NYC_city_that_never_sins
 		}
+		bypass = {
+			OR = {
+				has_completed_focus = NYC_neutral_city
+				has_completed_focus = NYC_beyond_city_limits
+			}
+		}
 		relative_position_id = NYC_christian_front_takes_command
 		x = 1
 		y = 5
