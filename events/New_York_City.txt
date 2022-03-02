@@ -5231,7 +5231,7 @@ country_event = { # CF Leadership
 			desc = "POLITICS_MOLLOY_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Thomas_Edmund_Molloy.png"
 			expire = "1965.1.1"
-			ideology = fundementalism_subtype
+			ideology = pioism_subtype
 			traits = {}
 		}
 	}
@@ -5243,7 +5243,7 @@ country_event = { # CF Leadership
 			desc = "POLITICS_GENEROSO_POPE_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Generoso_Pope.png"
 			expire = "1965.1.1"
-			ideology = fundementalism_subtype
+			ideology = legionarism_subtype
 			traits = {}
 		}
 	}
