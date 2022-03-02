@@ -577,7 +577,6 @@ country_event = { #sexy oraange NEE or nah
 		owns_state = 935
 		owns_state = 931
 		owns_state = 796
-		owns_state = 359
 		NOT = {
 			has_cosmetic_tag = NYC_NEE
 			has_country_flag = NYC_can_invade_america
@@ -598,7 +597,6 @@ country_event = { #sexy oraange NEE or nah
 					state = 935 #Rhode Island
 					state = 931 #Connecticut
 					state = 796 #Upstate New York
-					state = 359 #New Jersey
 				}
 			}
 			NYC = {
@@ -620,7 +618,6 @@ country_event = { #sexy oraange NEE or nah
 					state = 935 #Rhode Island
 					state = 931 #Connecticut
 					state = 796 #Upstate New York
-					state = 359 #New Jersey
 				}
 			}
 			NYC = {
