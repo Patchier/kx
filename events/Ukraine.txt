@@ -188,6 +188,10 @@ country_event = { # Khrushchev Criticizes the Ukrainian government
 				id = ukraine.9
 				days = 12
 			}
+			country_event = {
+				id = ukraine.93
+				days = 6
+			}
 		}
 		set_global_flag = krushchev_criticizes_gov
 	}
@@ -2777,10 +2781,10 @@ country_event = { # Explosion on the Dnieper (republic)
 				ideology = oligarchy_subtype
 			}
 			create_country_leader = {
-				name = "Volodymyr Vynnychenko"
-				picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png"
+				name = "Vyacheslav Lypynsky"
+				picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 				expire = "1965.1.1"
-				ideology = christian_democracy_subtype
+				ideology = soccon_agrarianism_subtype
 			}
 			create_country_leader = {
 				name = "Boris Martos"
@@ -2849,10 +2853,10 @@ country_event = { # Explosion on the Dnieper (republic)
 				ideology = national_populist_subtype
 			}
 			create_country_leader = {
-				name = "Volodymyr Vynnychenko"
-				picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png"
+				name = "Vyacheslav Lypynsky"
+				picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 				expire = "1965.1.1"
-				ideology = christian_democracy_subtype
+				ideology = soccon_agrarianism_subtype
 			}
 			create_country_leader = {
 				name = "Boris Martos"
@@ -2913,10 +2917,10 @@ country_event = { # Explosion on the Dnieper (republic)
 				ideology = oligarchy_subtype
 			}
 			create_country_leader = {
-				name = "Volodymyr Vynnychenko"
-				picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png"
+				name = "Vyacheslav Lypynsky"
+				picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 				expire = "1965.1.1"
-				ideology = christian_democracy_subtype
+				ideology = soccon_agrarianism_subtype
 			}
 			create_country_leader = {
 				name = "Boris Martos"
@@ -2961,10 +2965,10 @@ country_event = { # Explosion on the Dnieper (republic)
 			has_country_flag = UKR_DEM
 		}
 		create_country_leader = {
-			name = "Volodymyr Vynnychenko"
-			picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png"
+			name = "Vyacheslav Lypynsky"
+			picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 			expire = "1965.1.1"
-			ideology = christian_democracy_subtype
+			ideology = soccon_agrarianism_subtype
 		}
 		create_country_leader = {
 			name = "Boris Martos"
@@ -4208,7 +4212,7 @@ country_event = {
 			popularity = 0.2
 		}
 		add_ideas = {
-			UKR_Vladimir_Vynnychenko_hog_sco
+			UKR_Andrey_Livytskyi_hog_ade
 			UKR_Alexander_Shulgin_for_sco
 			UKR_Nikolai_Shrag_eco_sco
 			UKR_Ivan_Feshenko_Chopovsky_sec_sli
@@ -4364,7 +4368,7 @@ country_event = { #Subsequent Elections
 			popularity = 0.2
 		}
 		add_ideas = {
-			UKR_Vladimir_Vynnychenko_hog_sco
+			UKR_Andrey_Livytskyi_hog_ade
 			UKR_Alexander_Shulgin_for_sco
 			UKR_Nikolai_Shrag_eco_sco
 			UKR_Ivan_Feshenko_Chopovsky_sec_sli
@@ -4374,7 +4378,7 @@ country_event = { #Subsequent Elections
 
 country_event = { # Skoropadsky Dissolves the Rada
 	id = ukraine.90
-	immediate = { log = "[GetDateText]: [Root.GetName]: event ukraine.92 FROM = [From.GetName]" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ukraine.90 FROM = [From.GetName]" }
 	title = ukraine.90.t
 	desc = ukraine.90.d
 	is_triggered_only = yes
@@ -4392,7 +4396,7 @@ country_event = { # Skoropadsky Dissolves the Rada
 
 country_event = { # Rightist Coalition
 	id = ukraine.91
-	immediate = { log = "[GetDateText]: [Root.GetName]: event ukraine.92 FROM = [From.GetName]" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ukraine.91 FROM = [From.GetName]" }
 	title = ukraine.91.t
 	desc = ukraine.91.d
 	is_triggered_only = yes
@@ -4411,7 +4415,6 @@ country_event = { # Rightist Coalition
 		trigger =  { has_government = national_populist }
 		name = ukraine.91.a
 		complete_national_focus = UKR_Broad_Coalition
-		uncomplete_national_focus = UKR_Snap_Elections
 		set_country_flag = UKR_extremist_coup
 		set_politics = {
 			ruling_party = national_populist
@@ -4449,6 +4452,21 @@ country_event = { # Fate of Extremist Parties
 			}
 			set_country_flag = UKR_banned_extremists
 		}
+	}
+}
+
+country_event = { # Memories of the Republic
+	id = ukraine.93
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ukraine.92 FROM = [From.GetName]" }
+	title = ukraine.93.t
+	desc = ukraine.93.d
+	picture = GFX_report_event_generic_strike	
+
+	is_triggered_only = yes
+
+	option = { #Flavor
+		name = ukraine.93.a
+		add_stability = 0.01
 	}
 }
 
@@ -4490,11 +4508,10 @@ country_event = { # Vasil Shot
 		ideology = marlib_national_liberalism_subtype
 	     }
              create_country_leader = {
-		name = "Mikhail Bulgakov"
-                desc = "POLITICS_MIKHAIL_BULGAKOV_DESC"
-		picture = "gfx/leaders/Ukr/Portrait_Ukraine_Mikhail_Bulgakov.png"
+		name = "Vyacheslav Lypynsky"
+		picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 		expire = "1965.1.1"
-		ideology = christian_democracy_subtype
+		ideology = soccon_agrarianism_subtype
 	     }
              create_country_leader = {
 		name = "Pavlo Skoropadskyi"
